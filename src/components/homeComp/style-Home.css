@@ -1,0 +1,147 @@
+.HomeImage{
+    position: absolute;
+    bottom: 38%;
+    /* width: 45px; */
+    margin-left: 29%;
+}
+
+.HomeImage img{
+    width: 60%;
+}
+
+.Home1-text{
+    padding-top: 28%;
+}
+
+.Home1-text p{
+    padding-top: 15%;
+}
+
+.Home1-text button{
+    border-color: #00a3e2;
+    color: #00a3e2;
+    border-radius: 50px;
+    margin-top: 11%;
+}
+
+.HomePhone-sec{
+    background-image: url("../../images/blue-back.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.HomePhone-sec img{
+    width: 100%;
+    position: relative;
+}
+
+
+.Home-phones p{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: -42px;
+    width: 61%;
+    left: 27%;
+    
+}
+
+
+.SpQeE {
+    position: relative;
+    left: 23%;
+}
+
+.rec-carousel-item {
+    width: 29%;
+}
+.cetQhm {
+    display: none;
+}
+
+/********************** Responsive ******************/
+
+@media (min-width: 768px) and (max-width: 991px){
+
+.Home1-text h1{
+    font-size: 30px;
+}
+
+.Home1-text p {
+    font-size: 13px;
+}
+.Home-phones p {
+    font-size: 15px;
+}
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+
+    .Home1-text{
+        padding-top: 12%;
+    }
+    .Home1-text h1{
+        font-size: 39px;
+    }
+    .Home1-text p {
+        font-size: 14px;
+        padding-top: 7%; 
+    }
+
+    .HomePhone-sec {
+        background-position: bottom;
+        background-position-y: 76%;
+   }
+   .Home-phones p {
+    font-size: 15px;
+   }
+
+
+}
+@media (min-width: 320px) and (max-width: 575px){
+    .Home1-text{
+        padding-top: 12%;
+    }
+    .Home1-text h1{
+        font-size: 28px;
+    }
+    .Home1-text p {
+        font-size: 12px;
+        padding-top: 7%; 
+    }
+
+    .rec-carousel-item {
+        width: 35%;
+    }
+    .SpQeE {
+        position: relative;
+        left: 2%;
+    }
+    .HomePhone-sec {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 374px;
+
+    }
+
+    .Home-phones{
+        padding-top: 73px;
+    }
+    .Home-phones p{
+       text-align: center;
+        position: relative;
+        top: -18px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .kGrYtS {
+      position: relative;
+      top: -33px;
+       margin-bottom: 16px;
+    }
+
+}

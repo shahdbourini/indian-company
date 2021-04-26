@@ -1,0 +1,52 @@
+.review-section{
+    background-color: #1890ff;
+}
+
+/* .review-title{
+    text-align: center;
+    color: white;
+    padding-top: 9%;
+} */
+
+.review{
+    background-color: white;
+    /* margin-bottom: 38%; */
+    border-radius: 19px;
+    position: relative;
+    top: -68px;
+    z-index: 50;
+}
+
+.review img{
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 11%;
+}
+
+.review p{
+    padding-top: 21px;
+    padding-left: 22px;
+    font-size: 11px;
+    padding-bottom: 41px;
+    color: #5c5a5a;
+
+}
+
+.blueDesign {
+    width: 89px;
+    position: relative;
+    /* left: 126px; */
+    /* margin-right: 35px; */
+    top: -120px;
+    /* right: 11px; */
+    float: right;
+    right: -50px;
+}
+
+.blueDesign2{
+    width: 89px;
+    position: relative;
+    left: -51px;
+    /* margin-right: 35px; */
+    top: -29px;
+}

@@ -1,0 +1,88 @@
+.facebook{
+    text-transform: none;
+    width: 100%;
+    background: #1877f2;
+    margin-top: 19px;
+    color: white;
+}
+
+.google{
+    text-transform: none;
+    width: 100%;
+    border: 1px solid rgb(209, 205, 205);
+    background: #eaeced;
+}
+
+.devide{
+    display:flex;
+    padding-top: 43px;
+}
+.black-back{
+    background: #38454c;
+    padding: 45px 24px 64px 31px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+
+.login-form label ,p , a{
+    color:white;
+}
+.login-form button{
+    width: 100%;
+    background: rgb(255, 215, 148);
+    border: none;
+    color: black;
+}
+
+.login-text h3{
+    color: rgb(255, 215, 148);
+    font-weight: 500; 
+}
+
+.login-text p{
+    color:white;
+    padding-bottom: 27px;
+    
+}
+.login-form input{
+    background: #38454c;
+    color: white;
+}
+
+/*************************************** login Private******************/
+
+.black-backP{
+    border-bottom-right-radius: 28px;
+    border-top-right-radius: 28px;
+    padding: 45px 24px 64px 31px;
+    border:solid 1px #1877f2;
+}
+
+.login-textP h3{
+    color: #1877f2;
+    font-weight: 500; 
+}
+
+.login-textP p{
+    color:black;
+    padding-bottom: 27px;
+    
+}
+
+.googleP{
+    background: #eaeced;
+    text-transform: none;
+    width: 100%;
+    border: 1px solid rgb(209, 205, 205);
+}
+
+.login-formP label ,p , a{
+    color:black;
+}
+
+.login-formP button{
+    width: 100%;
+    background: #1877f2;
+    border: none;
+    color: white;
+}

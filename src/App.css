@@ -1,38 +1,109 @@
-.App {
+.about-text1{
+  position: relative;
+    top: 32%;
+}
+
+.about-text1 h2{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .about-text1 img{
+  width: 100%;
+} */
+
+.features-image{
+  background-color: #1890ff;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.features-text {
+  text-align: center;
+  padding-top: 12vh;
+  color: white;
+  width: 33vw;
+  margin-left: 34%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.features-text h2{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.features-text button{
+  border-radius: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.features-text img{
+  padding-top: 15vh;
+}
+
+.how-text{
+  padding-top: 46%;
+}
+
+.how-text h3{
+  color: white;;
+}
+
+.how-text p{
+  padding-top: 35px;
+  color: white;;
+}
+
+.how-text button{
+  margin-top: 16%;
+    border-radius: 50px;
+    border: solid 1px #daa21b;
+    color: #daa21b  ;
+    background: #38454c;
+}
+
+/* .AboutImage img{
+  position: absolute;
+  bottom: 31%;
+  width: 28%;
+  margin-left: 13%;
+} */
+
+/********************** responsive ********/
+
+@media (min-width: 320px) and (max-width: 576px){
+  .about-text1{
+      top: 2%;
   }
-  to {
-    transform: rotate(360deg);
+  .about-text1 p{
+    padding-left: 14%;
+  }
+
+  .how-text {
+    padding-top: 9%;
+    font-size: 14px;
+  }
+  .how-text h3 {
+    color: white;
+    font-size: 24px;
+}
+  
+
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+
+  .about-text1 p{
+    font-size: 11px;
+  }
+  .about-text1 h2{
+    font-size: 24px;
+  }
+  .how-text {
+    padding-top: 13%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+
+  .about-text1 p{
+    font-size: 11px;
+  }
+  .about-text1 h2{
+    font-size: 24px;
   }
 }
