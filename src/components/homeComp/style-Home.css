@@ -26,9 +26,9 @@
 
 .HomePhone-sec{
     background-image: url("../../images/blue-back.png");
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: bottom;
+    background-position-y: 462px;
+    background-repeat: no-repeat;
 }
 
 
@@ -38,6 +38,13 @@
 }
 
 
+.Home-phones img{
+    width: 100%;
+    position: relative;
+    left: 3%;
+    top: 13px;
+}
+
 .Home-phones p{
     font-size: 20px;
     font-weight: 500;
@@ -45,14 +52,8 @@
     top: -42px;
     width: 61%;
     left: 27%;
-    
 }
 
-
-.SpQeE {
-    position: relative;
-    left: 23%;
-}
 
 .rec-carousel-item {
     width: 29%;
@@ -62,6 +63,25 @@
 }
 
 /********************** Responsive ******************/
+@media (min-width:1440px){
+
+    .alice-carousel__stage-item {
+        max-width: 373px;
+        left: 10%;
+    }
+    .alice-carousel__dots {
+        opacity: 0;
+    }
+    
+}
+
+@media (min-width:768px){
+
+    .alice-carousel__dots {
+        opacity: 0;
+    }
+    
+}
 
 @media (min-width: 768px) and (max-width: 991px){
 
@@ -75,6 +95,12 @@
 .Home-phones p {
     font-size: 15px;
 }
+
+.HomePhone-sec {
+    background-size: cover;
+    background-position-y: 311px;
+
+   }
 }
 
 
@@ -99,7 +125,11 @@
     font-size: 15px;
    }
 
+   .HomePhone-sec {
+    background-size: cover;
+    background-position-y: 406px;
 
+   }
 }
 @media (min-width: 320px) and (max-width: 575px){
     .Home1-text{
@@ -123,7 +153,7 @@
     .HomePhone-sec {
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-y: 374px;
+        background-position-y: 420px;
 
     }
 
@@ -138,10 +168,5 @@
         font-weight: 500;
     }
 
-    .kGrYtS {
-      position: relative;
-      top: -33px;
-       margin-bottom: 16px;
-    }
 
 }

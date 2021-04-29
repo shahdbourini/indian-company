@@ -9,6 +9,7 @@ class Accordion extends React.Component {
         <dt
           className={expand ? 'title is-expanded' : 'title'}
           onClick={onClick}
+          style={{ color: `${this.props.color}` }}
         >
           {title}
         </dt>
@@ -16,7 +17,7 @@ class Accordion extends React.Component {
           className={expand ? 'content is-expanded' : 'content'}
           onClick={onClick}
         >
-          <p>{contents}</p>
+          <p style={{ color: `${this.props.color}` }}>{contents}</p>
         </dd>
       </div>
     );

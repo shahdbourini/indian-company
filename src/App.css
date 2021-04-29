@@ -1,41 +1,31 @@
-.about-text1{
-  position: relative;
-    top: 32%;
-}
 
-.about-text1 h2{
-  text-align: center;
-}
 
-/* .about-text1 img{
+.cover{
   width: 100%;
-} */
-
-.features-image{
-  background-color: #1890ff;
-  height: 100vh;
 }
 
-.features-text {
-  text-align: center;
-  padding-top: 12vh;
-  color: white;
-  width: 33vw;
-  margin-left: 34%;
+.img1{
+    width: 21%;
+    position: relative;
+    top: 106px;
 }
-.features-text h2{
-  color: white;
+.img2{
+  width: 100%;
+}
+.img3{
+  width: 21%;
+  position: relative;
+  left: 68%;
+  bottom: 38px;
+}
+.img4{
+  width: 21%;
+  position: relative;
+  left: 82%;
+  bottom: 208px;
 }
 
-.features-text button{
-  border-radius: 50px;
-}
-
-.features-text img{
-  padding-top: 15vh;
-}
-
-.how-text{
+/* .how-text{
   padding-top: 46%;
 }
 
@@ -46,7 +36,7 @@
 .how-text p{
   padding-top: 35px;
   color: white;;
-}
+} */
 
 .how-text button{
   margin-top: 16%;

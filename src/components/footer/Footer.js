@@ -43,20 +43,24 @@ function Footer(props) {
           lg={{ span: 3, offset: 2 }}
         >
           <StyleH5>The App</StyleH5>
-          <BrowserRouter>
-            <StyleP1>
-              <StyleLink>How it's work </StyleLink>
-            </StyleP1>
-            <StyleP1>
-              <StyleLink>Plan</StyleLink>
-            </StyleP1>
-            <StyleP1>
-              <StyleLink>Personal Account </StyleLink>
-            </StyleP1>
-            <StyleP1>
-              <StyleLink>Business Account</StyleLink>
-            </StyleP1>
-          </BrowserRouter>
+          <StyleP1>
+            <StyleLink>How it's work </StyleLink>
+          </StyleP1>
+          <StyleP1>
+            <StyleLink>Plan</StyleLink>
+          </StyleP1>
+
+          <StyleP1>
+            <StyleLink>
+              <Link to="/login">Personal Account</Link>
+            </StyleLink>
+          </StyleP1>
+
+          <StyleP1>
+            <StyleLink>
+              <Link to="/login">Business Account</Link>
+            </StyleLink>
+          </StyleP1>
         </Col>
 
         <Col
@@ -66,20 +70,24 @@ function Footer(props) {
           lg={{ span: 3, offset: 1 }}
         >
           <StyleH5>Company</StyleH5>
-          <BrowserRouter>
-            <StyleP1>
-              <StyleLink>About Us </StyleLink>
-            </StyleP1>
-            <StyleP1>
-              <StyleLink>Privacy</StyleLink>
-            </StyleP1>
-            <StyleP1>
-              <StyleLink>Terms & Conditions </StyleLink>
-            </StyleP1>
-            <StyleP1>
-              <StyleLink>Contact Us</StyleLink>
-            </StyleP1>
-          </BrowserRouter>
+          <StyleP1>
+            <StyleLink>
+              {' '}
+              <Link to="/About">About Us </Link>
+            </StyleLink>
+          </StyleP1>
+          <StyleP1>
+            <StyleLink>Privacy</StyleLink>
+          </StyleP1>
+          <StyleP1>
+            <StyleLink>Terms & Conditions </StyleLink>
+          </StyleP1>
+          <StyleP1>
+            <StyleLink>
+              {' '}
+              <Link to="/contact">Contact Us</Link>
+            </StyleLink>
+          </StyleP1>
         </Col>
 
         <Col
@@ -89,40 +97,38 @@ function Footer(props) {
           lg={{ span: 3, offset: 1 }}
         >
           <StyleH5>Follow</StyleH5>
-          <BrowserRouter>
-            <StyleP1>
-              <StyleLink>Facebook </StyleLink>
-            </StyleP1>
-            <StyleP1>
-              <StyleLink>Twitter </StyleLink>
-            </StyleP1>
-            <StyleP1>
-              <StyleLink>Instagram </StyleLink>
-            </StyleP1>
-            <StyleP1>
-              <StyleLink>Linkedin</StyleLink>
-            </StyleP1>
-          </BrowserRouter>
+          <StyleP1>
+            <StyleLink>Facebook </StyleLink>
+          </StyleP1>
+          <StyleP1>
+            <StyleLink>Twitter </StyleLink>
+          </StyleP1>
+          <StyleP1>
+            <StyleLink>Instagram </StyleLink>
+          </StyleP1>
+          <StyleP1>
+            <StyleLink>Linkedin</StyleLink>
+          </StyleP1>
         </Col>
       </Row>
 
       <Row style={{ marginTop: `24px`, paddingBottom: `20px ` }}>
         <Col
-          xs={{ span: 10, offset: 2 }}
-          sm={{ span: 10, offset: 2 }}
-          md={{ span: 4, offset: 2 }}
+          xs={{ span: 6, offset: 2 }}
+          sm={{ span: 4, offset: 2 }}
+          md={{ span: 3, offset: 2 }}
           lg={{ span: 2, offset: 3 }}
         >
           <div>
-            <img src={footerimg} style={{ width: `79%` }} />
+            <img src={footerimg} style={{ width: `66%` }} />
           </div>
         </Col>
 
         <Col
           xs={{ span: 10, offset: 1 }}
-          sm={{ span: 1, offset: 8 }}
-          md={{ span: 1, offset: 13 }}
-          lg={{ span: 2, offset: 13 }}
+          sm={{ span: 5, offset: 9 }}
+          md={{ span: 5, offset: 10 }}
+          lg={{ span: 5, offset: 12 }}
         >
           <ArrowStyle>
             <Switch

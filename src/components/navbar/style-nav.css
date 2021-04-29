@@ -7,7 +7,7 @@
 }
 
 .blackColor{
-    background: #38454c;
+    background: rgb(38 42 44);
 }
 
 .blackColor .button1 {
@@ -24,13 +24,13 @@
     border-radius: 50px;
     border-color: #daa21b;
     color : #daa21b;
-     background: #38454c;
+     background: rgb(38 42 44);
      width: 108px;
      margin-left: 30%;
 }
 
 .blackColor .navbar-collapse {
-    background: #38454c;
+    background: rgb(38 42 44);
 }
 
 .blackColor .navbar-nav .nav-link {
@@ -133,40 +133,59 @@
     margin-right: 5%;
 }
 
-/* .navbar-nav .nav-item a:active{
+.navbar-nav .nav-item a:active{
     text-decoration: underline;
-    text-decoration-color: #FAD98A;
-} */
+    text-decoration-color: #1f93fa;
+    text-decoration-thickness: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus , .navbar-light .navbar-nav .nav-link:hover {
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: #1f93fa;
+    text-decoration-thickness: 2px;
+}
+
+
+.blackColor .navbar-nav .nav-link:focus , .blackColor .navbar-nav .nav-link:hover {
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+}
+
+.blueColor .navbar-nav .nav-link:focus , .blueColor .navbar-nav .nav-link:hover {
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+}
 
 .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     /* margin-left: 4rem; */
-    margin-left: 10%;
+    margin-left: 6%;
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
     padding-top: 1%;
+    /* width: 217px; */
 }
 
 /****************************** Responsive *****************/
 
 @media (min-width: 992px) and (max-width: 1200px){
-    .navbar-light .navbar-nav .nav-link ,.blackColor .navbar-nav .nav-link {
+    .navbar-light .navbar-nav .nav-link ,.blackColor .navbar-nav .nav-link,.blueColor .navbar-nav .nav-link {
         font-size: 0.8rem;
     }
-    .navbar-light .navbar-nav .nav-item ,.blackColor .navbar-nav .nav-item  {
+    .navbar-light .navbar-nav .nav-item ,.blackColor .navbar-nav .nav-item, .blueColor .navbar-nav .nav-item  {
         margin-left: 0.3rem;
     }
-    .navbar-light .button1 ,.navbar-light .button2 , .blackColor .button1 ,.blackColor .button2  {
+    .navbar-light .button1 ,.navbar-light .button2 , .blackColor .button1 ,.blackColor .button2 , .blueColor .button1 ,.blueColor .button2 {
         width: 80px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 766px){
-    .navbar-brand{
-       width: 47%;
-    }
 
-}

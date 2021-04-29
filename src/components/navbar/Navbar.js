@@ -1,5 +1,5 @@
 import './style-nav.css';
-import { NavLink, BrowserRouter, useHistory } from 'react-router-dom';
+import { NavLink, useHistory } from 'react-router-dom';
 import { Button } from 'antd';
 import 'antd/dist/antd.css';
 // import logo from '../../images/logo.png';
@@ -32,7 +32,7 @@ function Navbar(props) {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <NavLink
-                  to="/indian-company"
+                  to="/"
                   activeClassName="is-active"
                   className="nav-link"
                 >
@@ -75,6 +75,16 @@ function Navbar(props) {
                   className="nav-link"
                 >
                   How to use it
+                </NavLink>
+              </li>
+
+              <li className="nav-item">
+                <NavLink
+                  to="/business"
+                  activeClassName="is-active"
+                  className="nav-link"
+                >
+                  Business
                 </NavLink>
               </li>
 
