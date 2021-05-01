@@ -10,7 +10,12 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Login from './components/LogIn/Login';
 import Signup from './components/signup/SignUp';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
 import './App.css';
 import blueLogo from './images/blueLogo2.png';
 import whiteLogo from './images/logo2.png';

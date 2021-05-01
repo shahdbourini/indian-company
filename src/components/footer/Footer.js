@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { Row, Col, Switch } from 'antd';
 import footerimg from '../../images/footer-img.png';
 import blueLogo from '../../images/blueLogo2.png';
+import { ExternalLink } from 'react-external-link';
+
 import {
   StyleH5,
   StyleP,
@@ -104,7 +106,10 @@ function Footer(props) {
           <StyleH5>Follow</StyleH5>
           <StyleP1>
             <StyleLink>
-              <a href="https://www.facebook.com/payxmi">Facebook </a>
+              {/* <Link to={'//www.facebook.com/payxmi'}>Facebook </Link> */}
+              <ExternalLink href="https://www.facebook.com/payxmi">
+                Facebook
+              </ExternalLink>
             </StyleLink>
           </StyleP1>
           <StyleP1>
@@ -115,7 +120,7 @@ function Footer(props) {
           </StyleP1>
           <StyleP1>
             <StyleLink>
-              <a href="/https://www.linkedin.com/company/payxmi/">Linkedin</a>
+              <a href="https://www.linkedin.com/company/payxmi/">Linkedin</a>
             </StyleLink>
           </StyleP1>
         </Col>
