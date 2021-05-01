@@ -1,3 +1,11 @@
+.aboutSec1 img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width:100%;
+}
+
+
 .about-text3 h4{
 text-align: center;
 }
@@ -11,16 +19,17 @@ text-align: center;
 }
 
 .setting1{
-  width: 50%;
-  position: relative;
-  top: 30%;
-  left: 24px;
+  position: absolute;
+  top: 46%;
+  left: 48%;
+  width: 20%;
 }
 
 .setting2{
-  width: 50%;
-  position: relative;
-  top: 15%;
+  position: absolute;
+  top: 54%;
+  left: 34%;
+  width: 20%;
 }
 
 
@@ -53,15 +62,4 @@ text-align: center;
     }
   }
 
-  @media (min-width: 320px) and (max-width: 576px){
-
-    .setting1 {
-      top: 67%;
-    }
-
-    .setting-icons{
-      padding-bottom: 80px;
-    }
-
-
-  }
+ 

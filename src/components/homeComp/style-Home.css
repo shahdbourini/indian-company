@@ -1,8 +1,8 @@
 .HomeImage{
     position: absolute;
-    bottom: 38%;
-    /* width: 45px; */
-    margin-left: 29%;
+    right: 31%;
+    top: 44%;
+    width: 40%;
 }
 
 .HomeImage img{
@@ -27,8 +27,18 @@
 .HomePhone-sec{
     background-image: url("../../images/blue-back.png");
     background-position: bottom;
-    background-position-y: 462px;
+    background-position-y: 357px;
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alice-carousel {
+    position: relative;
+    /* width: 65%; */
+    margin: auto;
+    direction: revert;
+    padding-left: 7%;
+    padding-right: 8%;
 }
 
 
@@ -45,16 +55,40 @@
     top: 13px;
 }
 
-.Home-phones p{
-    font-size: 20px;
+.Home-phones button{
+    border-radius: 50px;
+    color: #1f93fa;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    /* top: -13px; */
+}
+
+.parCar-1{
+    font-size: 17px;
     font-weight: 500;
     position: relative;
     top: -42px;
     width: 61%;
-    left: 27%;
+    left: 23%;
+    text-align: center;
+    color: white;
 }
 
+.parCar-2{
+    text-align: initial;
+    width: 63%;
+    position: relative;
+    left: 29%;
+    color:white;
+    top: -42px;
+}
 
+.div-par{
+    height:125px;
+}
 .rec-carousel-item {
     width: 29%;
 }
@@ -63,27 +97,70 @@
 }
 
 /********************** Responsive ******************/
-@media (min-width:1440px){
 
+
+
+
+@media (min-width:1441px){
+
+    .alice-carousel__dots {
+        opacity: 0;
+    }
+
+    .HomePhone-sec{
+        background-size: contain;
+        background-position-y: bottom;
+    }
+    
+    .parCar-1 {
+        font-size: 25px;
+        top: -75px;
+        padding-top: 2px;
+        padding-bottom: 27px;
+    
+    }  
+    
+    .parCar-2 {
+    top: -113px;
+    font-size: 22px;
+    }
+
+    .Home-phones button {
+        /* top: -58px; */
+        font-size: 18px;
+}
+
+}
+
+
+@media (min-width:992px) and (max-width:1440){
+
+    .alice-carousel__dots {
+        opacity: 0;
+    }
     .alice-carousel__stage-item {
         max-width: 373px;
         left: 10%;
     }
-    .alice-carousel__dots {
-        opacity: 0;
-    }
     
 }
 
-@media (min-width:768px){
+
+@media (min-width:757px){
 
     .alice-carousel__dots {
         opacity: 0;
     }
+
+    
     
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+
+.alice-carousel__dots {
+        opacity: 0;
+    }
 
 .Home1-text h1{
     font-size: 30px;
@@ -92,8 +169,13 @@
 .Home1-text p {
     font-size: 13px;
 }
-.Home-phones p {
+.parCar-1 {
     font-size: 15px;
+    top: -20px;
+}
+.parCar-2 {
+    top: -23px;
+    font-size: 12px;
 }
 
 .HomePhone-sec {
@@ -101,6 +183,12 @@
     background-position-y: 311px;
 
    }
+
+   .div-par {
+    height: 114px;
+}
+
+
 }
 
 
@@ -117,21 +205,30 @@
         padding-top: 7%; 
     }
 
-    .HomePhone-sec {
-        background-position: bottom;
-        background-position-y: 76%;
-   }
-   .Home-phones p {
+    .div-par {
+        height: 168px;
+    }
+
+   .parCar-1 {
     font-size: 15px;
+    padding-top: 12%;
    }
+
+   .parCar-2 {
+    font-size: 15px;
+}
 
    .HomePhone-sec {
     background-size: cover;
-    background-position-y: 406px;
+    background-position-y: 244px;
 
    }
 }
 @media (min-width: 320px) and (max-width: 575px){
+
+    .div-par {
+        height: 119px;
+    }
     .Home1-text{
         padding-top: 12%;
     }
@@ -160,12 +257,18 @@
     .Home-phones{
         padding-top: 73px;
     }
-    .Home-phones p{
+    .parCar-1{
        text-align: center;
         position: relative;
-        top: -18px;
-        font-size: 17px;
+        top: -47px;
+        font-size: 21px;
         font-weight: 500;
+        padding-top: 5%;
+    }
+
+    .parCar-2 {
+        top: -55px;
+        font-size: 14px;
     }
 
 

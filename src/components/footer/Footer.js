@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link, BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Row, Col, Switch } from 'antd';
 import footerimg from '../../images/footer-img.png';
+import blueLogo from '../../images/blueLogo2.png';
 import {
   StyleH5,
   StyleP,
@@ -28,7 +29,11 @@ function Footer(props) {
           md={{ span: 5, offset: 2 }}
           lg={{ span: 5, offset: 3 }}
         >
-          <StyleH5>Logo</StyleH5>
+          {/* <StyleH5>Logo</StyleH5> */}
+          <img
+            src={blueLogo}
+            style={{ position: `relative`, top: `-36px`, left: `-14px` }}
+          />
           <StyleP>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -98,7 +103,9 @@ function Footer(props) {
         >
           <StyleH5>Follow</StyleH5>
           <StyleP1>
-            <StyleLink>Facebook </StyleLink>
+            <StyleLink>
+              <a href="https://www.facebook.com/payxmi">Facebook </a>
+            </StyleLink>
           </StyleP1>
           <StyleP1>
             <StyleLink>Twitter </StyleLink>
@@ -107,7 +114,9 @@ function Footer(props) {
             <StyleLink>Instagram </StyleLink>
           </StyleP1>
           <StyleP1>
-            <StyleLink>Linkedin</StyleLink>
+            <StyleLink>
+              <a href="/https://www.linkedin.com/company/payxmi/">Linkedin</a>
+            </StyleLink>
           </StyleP1>
         </Col>
       </Row>

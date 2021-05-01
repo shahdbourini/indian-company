@@ -34,15 +34,13 @@ function Home1(props) {
           md={{ span: 11, offset: 1 }}
           lg={{ span: 8, offset: 3 }}
         >
-          <div>
+          <div style={{ position: `relative`, left: `0`, top: `0` }}>
             <img
               src={homeImage1}
               alt="phoneImage"
               style={{ width: `100%`, position: `relative` }}
             />
-            <div className="HomeImage">
-              <img src={homeLogo} alt="LogoImage" />
-            </div>
+            <img src={homeLogo} alt="LogoImage" className="HomeImage" />
           </div>
         </Col>
       </Row>

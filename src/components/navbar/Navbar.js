@@ -32,7 +32,7 @@ function Navbar(props) {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/indian-company"
                   activeClassName="is-active"
                   className="nav-link"
                 >
@@ -57,7 +57,6 @@ function Navbar(props) {
                   About Us
                 </NavLink>
               </li>
-
               <li className="nav-item">
                 <NavLink
                   to="/blog"
@@ -70,16 +69,6 @@ function Navbar(props) {
 
               <li className="nav-item">
                 <NavLink
-                  to="/howToUseIt"
-                  activeClassName="is-active"
-                  className="nav-link"
-                >
-                  How to use it
-                </NavLink>
-              </li>
-
-              <li className="nav-item">
-                <NavLink
                   to="/business"
                   activeClassName="is-active"
                   className="nav-link"
@@ -87,7 +76,6 @@ function Navbar(props) {
                   Business
                 </NavLink>
               </li>
-
               <li className="nav-item">
                 <NavLink
                   to="/contact"
@@ -97,13 +85,15 @@ function Navbar(props) {
                   Contact us
                 </NavLink>
               </li>
-
               <li className="nav-item">
-                <Button className="button1" type="primary">
+                <Button
+                  onClick={() => history.push('/sign-up')}
+                  className="button1"
+                  type="primary"
+                >
                   Sign up
                 </Button>
               </li>
-
               <li className="nav-item">
                 <Button
                   onClick={() => history.push('/login')}

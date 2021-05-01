@@ -1,4 +1,14 @@
+h1 ,h2 ,h3 ,h5 ,h6,span {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
 
+p,a{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  font-size: 1rem;
+
+}
 
 .cover{
   width: 100%;
@@ -25,19 +35,6 @@
   bottom: 208px;
 }
 
-/* .how-text{
-  padding-top: 46%;
-}
-
-.how-text h3{
-  color: white;;
-}
-
-.how-text p{
-  padding-top: 35px;
-  color: white;;
-} */
-
 .how-text button{
   margin-top: 16%;
     border-radius: 50px;
@@ -46,14 +43,20 @@
     background: #38454c;
 }
 
-/* .AboutImage img{
-  position: absolute;
-  bottom: 31%;
-  width: 28%;
-  margin-left: 13%;
-} */
 
 /********************** responsive ********/
+
+@media (min-width:1441px){
+p{
+  font-size: 28px;
+}
+ h4 {
+  font-size: 45px;
+}
+h3{
+  font-size: 34px;
+}
+}
 
 @media (min-width: 320px) and (max-width: 576px){
   .about-text1{

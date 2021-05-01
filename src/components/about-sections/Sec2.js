@@ -1,6 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import aboutSec3 from '../../images/aboutSec3.png';
+import aboutAsset from '../../images/aboutAsset.png';
+import setting from '../../images/setting1.png';
 import './style-about.css';
 
 function Sec2(props) {
@@ -43,12 +45,20 @@ function Sec2(props) {
           </div>
         </Col>
         <Col
-          xs={{ span: 20, offset: 2 }}
+          xs={{ span: 19, offset: 2 }}
           sm={{ span: 20, offset: 3 }}
           md={{ span: 7, offset: 2 }}
           lg={{ span: 7, offset: 2 }}
         >
-          <img src={aboutSec3} style={{ width: `100%` }} />
+          <div style={{ position: `relative`, left: `0`, top: `0` }}>
+            <img src={aboutAsset} style={{ width: `100%` }} />
+            <img src={setting} className="App-logo setting1" alt="setting" />
+            <img
+              src={setting}
+              className="App-logo setting2"
+              alt="setting-icon"
+            />
+          </div>
         </Col>
       </Row>
     </>

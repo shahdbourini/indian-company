@@ -22,14 +22,15 @@ export const StyleH5 = styled.h5`
   padding-bottom: 5px;
   position: initial;
   margin-bottom: 25px;
-  font-family: 'PT Serif', Helvetica, Arial, sans-serif;
-  font-weight: 600;
 `;
 
 export const StyleP = styled.p`
   display: block;
   margin: 0 0 15px;
   color: #4d4d4d;
+  position: relative;
+  top: -59px;
+  left: 11px;
 `;
 
 export const ArrowStyle = styled.div`
