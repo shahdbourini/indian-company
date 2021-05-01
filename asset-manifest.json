@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/indian-company/static/css/main.953588ce.chunk.css",
-    "main.js": "/indian-company/static/js/main.8cad1a2f.chunk.js",
-    "main.js.map": "/indian-company/static/js/main.8cad1a2f.chunk.js.map",
+    "main.css": "/indian-company/static/css/main.1317e635.chunk.css",
+    "main.js": "/indian-company/static/js/main.67398713.chunk.js",
+    "main.js.map": "/indian-company/static/js/main.67398713.chunk.js.map",
     "runtime-main.js": "/indian-company/static/js/runtime-main.43e13f22.js",
     "runtime-main.js.map": "/indian-company/static/js/runtime-main.43e13f22.js.map",
     "static/css/2.05186903.chunk.css": "/indian-company/static/css/2.05186903.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.2ffd9b75.chunk.js.map": "/indian-company/static/js/3.2ffd9b75.chunk.js.map",
     "index.html": "/indian-company/index.html",
     "static/css/2.05186903.chunk.css.map": "/indian-company/static/css/2.05186903.chunk.css.map",
-    "static/css/main.953588ce.chunk.css.map": "/indian-company/static/css/main.953588ce.chunk.css.map",
+    "static/css/main.1317e635.chunk.css.map": "/indian-company/static/css/main.1317e635.chunk.css.map",
     "static/js/2.d63d434e.chunk.js.LICENSE.txt": "/indian-company/static/js/2.d63d434e.chunk.js.LICENSE.txt",
     "static/media/HomePhone1.de3f6676.png": "/indian-company/static/media/HomePhone1.de3f6676.png",
     "static/media/HomePhone2.5d984bdb.png": "/indian-company/static/media/HomePhone2.5d984bdb.png",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.43e13f22.js",
     "static/css/2.05186903.chunk.css",
     "static/js/2.d63d434e.chunk.js",
-    "static/css/main.953588ce.chunk.css",
-    "static/js/main.8cad1a2f.chunk.js"
+    "static/css/main.1317e635.chunk.css",
+    "static/js/main.67398713.chunk.js"
   ]
 }
