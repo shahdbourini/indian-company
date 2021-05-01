@@ -18,8 +18,8 @@ function SignUp(props) {
         <Col
           xs={{ span: 20, offset: 2 }}
           sm={{ span: 22, offset: 2 }}
-          md={{ span: 13, offset: 5 }}
-          lg={{ span: 9, offset: 7 }}
+          md={{ span: 17, offset: 4 }}
+          lg={{ span: 15, offset: 5 }}
           className="blue-borders"
         >
           <div className="signup-text">
@@ -52,7 +52,7 @@ function SignUp(props) {
 
           <Form form={form} layout="vertical" className="signup-form">
             <Form.Item label="Sign Up With Email ID">
-              <Input style={{ width: `97%` }} />
+              <Input style={{ width: `97%`, marginLeft: `0 ` }} />
             </Form.Item>
             <div>
               <p style={{ color: `#707070`, textAlign: `center` }}>or</p>

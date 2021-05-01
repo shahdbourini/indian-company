@@ -39,47 +39,43 @@
     border-radius: 6px;
 }
 
+.ReactFlagsSelect-module_selectOptions__3LNBJ {
+    width: 33%;
+}
 .signup-form button{
     /* width: 100%; */
     border-radius: 6px;
 }
-/* .ReactFlagsSelect-module_flagsSelectInline__cUnnz {
-    display: inline-block;
-    width: 30%;
+
+@media (min-width: 1440px){
+    .signup-form input {
+        width: 45vw;
+    }
+    
+    .ReactFlagsSelect-module_selectOptions__3LNBJ {
+        width: 10vw;
+    }
+}
+@media (min-width: 756px) and (max-width: 991px){
+.signup-form input {
+    width: 37vw;
 }
 
-.ReactFlagsSelect-module_selectValue__152eS {
-    position: relative;
-    left: -12px;
-    font-size: 10px;
-} */
-
-
+}
 @media (min-width: 320px) and (max-width: 576px){
     .ReactFlagsSelect-module_flagsSelectInline__cUnnz {
         display: inline-block;
-        width: 32%;
+        width: 100%;
     }
     
-    .ReactFlagsSelect-module_selectBtn__19wW7:after {
-    display: none;
-    }
-    
-    .ReactFlagsSelect-module_selectValue__152eS {
-        position: relative;
-        left: -12px;
-        font-size: 10px;
-    }
-    .ReactFlagsSelect-module_label__27pw9, .ReactFlagsSelect-module_secondaryLabel__37t1D {
-        font-size: 0.5rem;
-        padding-left: 5%;
-        /* display: none; */
+    .ReactFlagsSelect-module_selectOptions__3LNBJ {
+        width: 100%;
     }
 
     .signup-form input {
         background: white;
-        width: 62%;
-        margin-left: 3%;
+        width: 100%;
+        margin-left: 0;
         padding-top: 5px;
         color: black;
         padding-bottom: 5px;
