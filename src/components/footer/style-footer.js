@@ -26,7 +26,7 @@ export const StyleH5 = styled.h5`
 
 export const StyleP = styled.p`
   display: block;
-  margin: 0 0 15px;
+  margin: 0 0 0px;
   color: #4d4d4d;
   position: relative;
   top: -59px;

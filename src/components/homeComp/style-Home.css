@@ -53,6 +53,7 @@
     position: relative;
     left: 3%;
     top: 13px;
+    padding-bottom: 16px;
 }
 
 .Home-phones button{
@@ -67,12 +68,18 @@
 }
 
 .parCar-1{
-    font-size: 17px;
-    font-weight: 500;
+  
     position: relative;
     top: -42px;
     width: 61%;
     left: 23%;
+    height:57px;
+}
+
+
+.parCar-1 p{
+    font-size: 17px;
+    font-weight: 500;
     text-align: center;
     color: white;
 }
@@ -84,6 +91,13 @@
     left: 29%;
     color:white;
     top: -42px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.parCar-2 p{
+    text-align: initial;
+    color:white;
 }
 
 .div-par{
@@ -113,20 +127,28 @@
     }
     
     .parCar-1 {
-        font-size: 25px;
-        top: -75px;
+        top: -67px;
         padding-top: 2px;
         padding-bottom: 27px;
     
-    }  
+    }
+    
+    .parCar-1 p{
+        font-size: 27px;
+    }
     
     .parCar-2 {
-    top: -113px;
-    font-size: 22px;
+        top: -40px;
+        padding-top: 10px;
+    }
+
+    .parCar-2 p{
+        font-size: 18px;
     }
 
     .Home-phones button {
         /* top: -58px; */
+        margin-top: 4%;
         font-size: 18px;
 }
 
@@ -170,11 +192,19 @@
     font-size: 13px;
 }
 .parCar-1 {
-    font-size: 15px;
     top: -20px;
 }
+
+.parCar-1 p {
+    font-size: 15px;
+}
+
 .parCar-2 {
     top: -23px;
+    font-size: 12px;
+}
+
+.parCar-2 p {
     font-size: 12px;
 }
 
@@ -209,12 +239,11 @@
         height: 168px;
     }
 
-   .parCar-1 {
+   .parCar-1 p {
     font-size: 15px;
-    padding-top: 12%;
    }
 
-   .parCar-2 {
+   .parCar-2 p {
     font-size: 15px;
 }
 
@@ -257,17 +286,19 @@
     .Home-phones{
         padding-top: 73px;
     }
-    .parCar-1{
-       text-align: center;
-        position: relative;
-        top: -47px;
-        font-size: 21px;
+    .parCar-1 p{
+        font-size: 16px;
         font-weight: 500;
-        padding-top: 5%;
     }
+
+ 
 
     .parCar-2 {
         top: -55px;
+        font-size: 14px;
+    }
+
+    .parCar-2 p {
         font-size: 14px;
     }
 

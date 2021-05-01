@@ -21,41 +21,35 @@ const responsive = {
 const items = [
   <div className="Home-phones ">
     <img src={HomePhone1} alt="HomePhone" />
-    <div className="div-par">
-      <p className="parCar-1" style={{ fontWeight: `bold` }}>
-        Instant Top-Up
-      </p>
-      <p className="parCar-2">
-        Top-up your Payxmi wallet instant within seconds in multiple ways.
-      </p>
+    <div className="parCar-1">
+      <p style={{ fontWeight: `bold` }}>Instant Top-Up</p>
+    </div>
+    <div className="parCar-2">
+      <p>Top-up your Payxmi wallet instant within seconds in multiple ways.</p>
     </div>
     <Link to="/instant-top-up">
       <Button>Learn More</Button>
     </Link>
   </div>,
   <div className="Home-phones ">
-    <img src={HomePhone3} alt="HomePhone" />
-    <div className="div-par">
-      <p className="parCar-1" style={{ fontWeight: `bold` }}>
-        Instant Receive and Send Payment
-      </p>
-      <p className="parCar-2">
-        With Payxmi you send and receive money anywhere instantly.
-      </p>
+    <img src={HomePhone2} alt="HomePhone" />
+    <div className="parCar-1">
+      <p style={{ fontWeight: `bold` }}>Instant Receive and Send Payment</p>
+    </div>
+    <div className="parCar-2">
+      <p>With Payxmi you send and receive money anywhere instantly.</p>
     </div>
     <Link to="/instant-receive-and-send-payment">
       <Button>Learn More</Button>
     </Link>
   </div>,
   <div className="Home-phones ">
-    <img src={HomePhone2} alt="HomePhone" />
-    <div className="div-par">
-      <p className="parCar-1" style={{ fontWeight: `bold` }}>
-        Manage your money better
-      </p>
-      <p className="parCar-2">
-        Payxmi allows you to manage and track you spending easily.
-      </p>
+    <img src={HomePhone3} alt="HomePhone" />
+    <div className="parCar-1">
+      <p style={{ fontWeight: `bold` }}>Manage your money better</p>
+    </div>
+    <div className="parCar-2">
+      <p>Payxmi allows you to manage and track you spending easily.</p>
     </div>
     <Link to="/manage-your-money">
       <Button>Learn More</Button>
