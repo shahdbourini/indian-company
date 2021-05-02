@@ -7,6 +7,17 @@ import signupLogo from '../../images/signupLogo.png';
 function SignUp(props) {
   const [selected, setSelected] = useState('');
   const [form] = Form.useForm();
+
+  const prefixSelector = (
+    <Form.Item name="prefix" noStyle>
+      <ReactFlagsSelect
+        selected={selected}
+        onSelect={(code) => setSelected(code)}
+        fullWidth={false}
+        selectedSize={13}
+      />
+    </Form.Item>
+  );
   return (
     <div>
       <Row
@@ -17,9 +28,9 @@ function SignUp(props) {
       >
         <Col
           xs={{ span: 20, offset: 2 }}
-          sm={{ span: 22, offset: 2 }}
-          md={{ span: 17, offset: 4 }}
-          lg={{ span: 15, offset: 5 }}
+          sm={{ span: 18, offset: 3 }}
+          md={{ span: 15, offset: 5 }}
+          lg={{ span: 10, offset: 7 }}
           className="blue-borders"
         >
           <div className="signup-text">
@@ -52,22 +63,18 @@ function SignUp(props) {
 
           <Form form={form} layout="vertical" className="signup-form">
             <Form.Item label="Sign Up With Email ID">
-              <Input style={{ width: `97%`, marginLeft: `0 ` }} />
+              <Input />
             </Form.Item>
             <div>
               <p style={{ color: `#707070`, textAlign: `center` }}>or</p>
             </div>
 
-            <Form.Item label="Mobile Number">
-              <div>
-                <ReactFlagsSelect
-                  selected={selected}
-                  onSelect={(code) => setSelected(code)}
-                  fullWidth={false}
-                  selectedSize={13}
-                />
-                <Input className="country-input" />
-              </div>
+            <Form.Item
+              layout="inline"
+              label="Mobile Number"
+              className="desktop-v"
+            >
+              <Input addonBefore={prefixSelector} />
             </Form.Item>
             <Form.Item>
               <Button type="primary" style={{ width: `100%` }}>

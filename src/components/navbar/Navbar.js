@@ -96,7 +96,7 @@ function Navbar(props) {
               </li>
               <li className="nav-item">
                 <Button
-                  onClick={() => history.push('/login')}
+                  // onClick={() => history.push('/login')}
                   className="button2"
                 >
                   Log in

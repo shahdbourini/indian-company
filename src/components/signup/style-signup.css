@@ -31,37 +31,30 @@
 
 .signup-form input {
     background: white;
-    width: 62%;
-    margin-left: 3%;
     padding-top: 10px;
     color: black;
     padding-bottom: 7px;
     border-radius: 6px;
 }
 
-.ReactFlagsSelect-module_selectOptions__3LNBJ {
-    width: 33%;
+.ant-input-group > .ant-input:last-child, .ant-input-group-addon:last-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
+
+.ant-input-group-addon:first-child {
+   left:-11px;
+}
+
+.ant-input-group-addon {
+    background-color: white;
+    border: 1px solid white;
+}
+
 .signup-form button{
-    /* width: 100%; */
     border-radius: 6px;
 }
 
-@media (min-width: 1440px){
-    .signup-form input {
-        width: 45vw;
-    }
-    
-    .ReactFlagsSelect-module_selectOptions__3LNBJ {
-        width: 10vw;
-    }
-}
-@media (min-width: 756px) and (max-width: 991px){
-.signup-form input {
-    width: 37vw;
-}
-
-}
 @media (min-width: 320px) and (max-width: 576px){
     .ReactFlagsSelect-module_flagsSelectInline__cUnnz {
         display: inline-block;
@@ -73,12 +66,10 @@
     }
 
     .signup-form input {
-        background: white;
         width: 100%;
         margin-left: 0;
-        padding-top: 5px;
-        color: black;
-        padding-bottom: 5px;
-        border-radius: 6px;
+    }
+    .ant-input-group-addon:first-child {
+        display: contents;
     }
 }

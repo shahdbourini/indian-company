@@ -34,13 +34,13 @@ function Footer(props) {
           {/* <StyleH5>Logo</StyleH5> */}
           <img
             src={blueLogo}
-            style={{ position: `relative`, top: `-36px`, left: `-14px` }}
+            style={{ position: `relative`, left: `-37px`, width: `70%` }}
           />
-          <StyleP>
+          {/* <StyleP>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et
-          </StyleP>
+          </StyleP> */}
         </Col>
 
         <Col
@@ -141,8 +141,8 @@ function Footer(props) {
         <Col
           xs={{ span: 10, offset: 1 }}
           sm={{ span: 5, offset: 9 }}
-          md={{ span: 5, offset: 10 }}
-          lg={{ span: 5, offset: 12 }}
+          md={{ span: 4, offset: 10 }}
+          lg={{ span: 3, offset: 12 }}
         >
           <ArrowStyle>
             <Switch

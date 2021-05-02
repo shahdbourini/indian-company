@@ -49,10 +49,10 @@ function App() {
             <Contact />
           </Route>
 
-          <Route exact path="/login">
+          {/* <Route exact path="/login">
             <Navbar blackColor="navbar-light" navLogo={blueLogo} />
             <Login />
-          </Route>
+          </Route> */}
 
           <Route exact path="/sign-up">
             <Navbar blackColor="navbar-light" navLogo={blueLogo} />
