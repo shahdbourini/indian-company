@@ -32,7 +32,7 @@ function Navbar(props) {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <NavLink
-                  to="/indian-company"
+                  to="/"
                   activeClassName="is-active"
                   className="nav-link"
                 >

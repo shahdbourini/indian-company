@@ -25,7 +25,7 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route exact path="/indian-company">
+          <Route exact path="/">
             <Navbar blackColor="navbar-light" navLogo={blueLogo} />
             <Home />
           </Route>
