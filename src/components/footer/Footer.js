@@ -110,7 +110,7 @@ function Footer(props) {
                   window.location.replace('https://www.facebook.com/payxmi')
                 }
               >
-                Facebook{' '}
+                Facebook
               </Link>
             </StyleLink>
           </StyleP1>
