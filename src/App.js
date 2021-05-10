@@ -10,12 +10,7 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Login from './components/LogIn/Login';
 import Signup from './components/signup/SignUp';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  HashRouter,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import blueLogo from './images/blueLogo3.png';
 import whiteLogo from './images/logo3.png';
@@ -23,59 +18,59 @@ import whiteLogo from './images/logo3.png';
 function App() {
   return (
     <>
-      <HashRouter>
-        {/* <Switch> */}
-        <Route exact path="/indian-company">
-          <Navbar blackColor="navbar-light" navLogo={blueLogo} />
-          <Home />
-        </Route>
+      <Router>
+        <Switch>
+          <Route exact path="/indian-company">
+            <Navbar blackColor="navbar-light" navLogo={blueLogo} />
+            <Home />
+          </Route>
 
-        <Route exact path="/business">
-          <Navbar blackColor="navbar-dark blackColor" navLogo={whiteLogo} />
-          <Business />
-        </Route>
+          <Route exact path="/business">
+            <Navbar blackColor="navbar-dark blackColor" navLogo={whiteLogo} />
+            <Business />
+          </Route>
 
-        <Route exact path="/about">
-          <Navbar blackColor="navbar-light" navLogo={blueLogo} />
-          <About />
-        </Route>
+          <Route exact path="/about">
+            <Navbar blackColor="navbar-light" navLogo={blueLogo} />
+            <About />
+          </Route>
 
-        <Route exact path="/features">
-          <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
-          <Features />
-        </Route>
-        <Route exact path="/contact">
-          <Navbar blackColor="navbar-light" navLogo={blueLogo} />
-          <Contact />
-        </Route>
+          <Route exact path="/features">
+            <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
+            <Features />
+          </Route>
+          <Route exact path="/contact">
+            <Navbar blackColor="navbar-light" navLogo={blueLogo} />
+            <Contact />
+          </Route>
 
-        {/* <Route exact path="/login">
+          {/* <Route exact path="/login">
             <Navbar blackColor="navbar-light" navLogo={blueLogo} />
             <Login />
           </Route> */}
 
-        <Route exact path="/sign-up">
-          <Navbar blackColor="navbar-light" navLogo={blueLogo} />
-          <Signup />
-        </Route>
+          <Route exact path="/sign-up">
+            <Navbar blackColor="navbar-light" navLogo={blueLogo} />
+            <Signup />
+          </Route>
 
-        <Route exact path="/instant-top-up">
-          <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
-          <Sec2 />
-        </Route>
+          <Route exact path="/instant-top-up">
+            <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
+            <Sec2 />
+          </Route>
 
-        <Route exact path="/manage-your-money">
-          <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
-          <Sec4 />
-        </Route>
+          <Route exact path="/manage-your-money">
+            <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
+            <Sec4 />
+          </Route>
 
-        <Route exact path="/instant-receive-and-send-payment">
-          <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
-          <Sec3 />
-        </Route>
-        {/* </Switch> */}
+          <Route exact path="/instant-receive-and-send-payment">
+            <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
+            <Sec3 />
+          </Route>
+        </Switch>
         <Footer />
-      </HashRouter>
+      </Router>
     </>
   );
 }
