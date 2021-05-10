@@ -9,13 +9,14 @@
 
 .feature1-title h4{
     color:white;
+    font-size: 45px;
 }
 
 .feature-text1{
-   padding-top: 45%;
+   padding-top: 48%;
 }
 
-.feature-text1 h3 {
+.feature-text1 h1 {
     color:white;
  }
 
@@ -35,7 +36,7 @@
  }
 
  .feature-text2 p{
-    font-size: 16px;
+    font-size: 18px;
  }
 
  .feature-text3{
@@ -46,7 +47,7 @@
     color: #01246f;
  }
  .feature-text3 p{
-    font-size: 16px;
+    font-size: 18px;
  }
 
  .feature-text5{
@@ -57,7 +58,7 @@
     color: #01246f;
  }
  .feature-text5 p{
-    font-size: 16px;
+    font-size: 18px;
  }
 
  /****************** Responsive ****************/

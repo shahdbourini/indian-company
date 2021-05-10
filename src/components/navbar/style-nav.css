@@ -1,8 +1,8 @@
 .navbar-light .navbar-nav .nav-link {
 
-    color: #000000;
+    color: #3f3a3a;
     opacity: 1;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
 }
 
@@ -36,7 +36,7 @@
 .blackColor .navbar-nav .nav-link {
     color: white;
     opacity: 1;
-       font-weight: bold;
+       font-weight: normal;
     font-size: 16px;
 }
 
@@ -47,16 +47,6 @@
     margin-left: 1.1rem;
     padding-top: 2%;
 }
-
-
-
-
-
-
-
-
-
-
 
 .blueColor{
     background: #1f93fa;
@@ -88,7 +78,7 @@
 .blueColor .navbar-nav .nav-link {
     color: white;
     opacity: 1;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
 }
 

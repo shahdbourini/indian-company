@@ -15,7 +15,7 @@ function Contact(props) {
           lg={{ span: 9, offset: 3 }}
         >
           <div className="contact-text">
-            <h1>Thanks for your interest in Payxmi!</h1>
+            <h1>Thanks for your interest in payxmi!</h1>
             <p>
               Want to learn more about the app and our business? Submit this
               form and our collegues will contact you soon.
@@ -51,7 +51,7 @@ function Contact(props) {
               </Form.Item>
 
               <Form.Item>
-                <Button type="primary">Sign in</Button>
+                <Button type="primary">Send</Button>
                 <Checkbox className="checkbox">
                   Accept our Terms of services, Privacy Policy
                 </Checkbox>

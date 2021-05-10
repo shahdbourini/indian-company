@@ -10,17 +10,17 @@ function Sec2(props) {
     <>
       <Row
         style={{
-          marginTop: `100px`,
+          marginTop: `0px`,
         }}
       >
         <Col
           xs={{ span: 20, offset: 2 }}
           sm={{ span: 20, offset: 3 }}
           md={{ span: 20, offset: 3 }}
-          lg={{ span: 16, offset: 3 }}
+          lg={{ span: 12, offset: 6 }}
         >
-          <p>
-            We at Payxmi follow the procedure of innovation and collaboration.
+          <p style={{ textAlign: `justify` }}>
+            We at payxmi follow the procedure of innovation and collaboration.
             With our innovative ideas, we have partnered or collaborated with
             many with the aim to ease businesses among people. Our constant
             approach towards easy business solutions have played an important
@@ -31,13 +31,15 @@ function Sec2(props) {
         <Col
           xs={{ span: 20, offset: 2 }}
           sm={{ span: 20, offset: 3 }}
-          md={{ span: 9, offset: 3 }}
-          lg={{ span: 8, offset: 3 }}
+          md={{ span: 10, offset: 3 }}
+          lg={{ span: 6, offset: 6 }}
         >
           <div className="about-sec2">
-            <h3>Constant Solution </h3>
-            <p>
-              Payxmi is working on innovative goals to bring better solutions
+            <h1 style={{ fontSize: 'xxx-large', textAlign: `left` }}>
+              Constant Solution 
+            </h1>
+            <p style={{ textAlign: `justify` }}>
+              payxmi is working on innovative goals to bring better solutions
               for businesses and individuals. Dedicated to offering high-quality
               and custom service to everyone, it can be one of the best constant
               solutions that you can implement.  
@@ -47,8 +49,8 @@ function Sec2(props) {
         <Col
           xs={{ span: 19, offset: 2 }}
           sm={{ span: 20, offset: 3 }}
-          md={{ span: 7, offset: 2 }}
-          lg={{ span: 7, offset: 2 }}
+          md={{ span: 10, offset: 2 }}
+          lg={{ span: 6, offset: 1 }}
         >
           <div style={{ position: `relative`, left: `0`, top: `0` }}>
             <img src={aboutAsset} style={{ width: `100%` }} />

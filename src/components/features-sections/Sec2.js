@@ -16,13 +16,13 @@ function Sec2(props) {
           <div className="feature-text2">
             <h1>Instant Ready-to-use wallet   </h1>
             <p>
-              Within minutes of opening the account with Payxmi, get the
+              Within minutes of opening the account with payxmi, get the
               multiple option to receive an online/contactless payments, helping
               you be on the go and while you experience easy transactions. 
             </p>
             <p>
               Don’t have sufficient money in your account? Top-up
-              your Payxmi wallet instantly by adding money from your respective
+              your payxmi wallet instantly by adding money from your respective
               bank account or any cards.   
             </p>
           </div>

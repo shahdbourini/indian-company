@@ -8,7 +8,7 @@ function Sec4(props) {
     {
       title: 'How do I create a business account? ',
       content:
-        'To create a business Payxmi account, you will need to register across different networks. You need to enter your business credentials to register into the platform. It is advisable to create a business account, specifically by choosing the option.',
+        'To create a business payxmi account, you will need to register across different networks. You need to enter your business credentials to register into the platform. It is advisable to create a business account, specifically by choosing the option.',
     },
     {
       title: 'Do I need to purchase plans?       ',

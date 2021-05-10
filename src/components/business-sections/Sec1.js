@@ -17,7 +17,7 @@ function Sec1(props) {
           <div className="how-text">
             <h1>One place to manage all your business finances </h1>
             <p>
-              Payxmi allows SME and large organizations to manage their finances
+              payxmi allows SME and large organizations to manage their finances
               well with a completely secure network. Spend more time for your
               business by managing all transactions from one place. Sign up in
               minutes 

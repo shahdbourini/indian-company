@@ -25,7 +25,7 @@ const items = [
       <p style={{ fontWeight: `bold` }}>Instant Top-Up</p>
     </div>
     <div className="parCar-2">
-      <p>Top-up your Payxmi wallet instant within seconds in multiple ways.</p>
+      <p>Top-up your payxmi wallet instant within seconds in multiple ways.</p>
     </div>
     <Link to="/instant-top-up">
       <Button>Learn More</Button>
@@ -37,7 +37,7 @@ const items = [
       <p style={{ fontWeight: `bold` }}>Instant Receive and Send Payment</p>
     </div>
     <div className="parCar-2">
-      <p>With Payxmi you send and receive money anywhere instantly.</p>
+      <p>With payxmi you send and receive money anywhere instantly.</p>
     </div>
     <Link to="/instant-receive-and-send-payment">
       <Button>Learn More</Button>
@@ -49,7 +49,7 @@ const items = [
       <p style={{ fontWeight: `bold` }}>Manage your money better</p>
     </div>
     <div className="parCar-2">
-      <p>Payxmi allows you to manage and track you spending easily.</p>
+      <p>payxmi allows you to manage and track you spending easily.</p>
     </div>
     <Link to="/manage-your-money">
       <Button>Learn More</Button>

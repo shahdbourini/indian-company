@@ -16,7 +16,7 @@ function Sec4(props) {
           <div className="feature-text2">
             <h1>Manage your money </h1>
             <p>
-              Payxmi plays an important role in managing money. We create tools
+              payxmi plays an important role in managing money. We create tools
               for monthly and weekly money management thereby sending instant
               notifications.    
             </p>

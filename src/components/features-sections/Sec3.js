@@ -27,7 +27,7 @@ function Sec3(props) {
           <div className="feature-text3">
             <h1>Transfer Money  </h1>
             <p>
-              With Payxmi you can transfer money seamlessly to anywhere within
+              With payxmi you can transfer money seamlessly to anywhere within
               Europe. We make payments faster with 0 commission. You can easily
               switch between the accounts.    
             </p>

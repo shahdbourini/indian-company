@@ -19,12 +19,12 @@ function Home(props) {
     {
       title: 'How do I claim the bonus offer? ',
       content:
-        'You will receive discounts and extra bonus for making transactions via the platform. The bonus received from transactions will be stored in your Payxmi wallet',
+        'You will receive discounts and extra bonus for making transactions via the platform. The bonus received from transactions will be stored in your payxmi wallet',
     },
     {
       title: 'Can I transfer money from my Paxmi wallet to my bank account?',
       content:
-        'Yes. You can transfer the money from your Payxmi wallet to bank account only if they are connected.',
+        'Yes. You can transfer the money from your payxmi wallet to bank account only if they are connected.',
     },
     { title: 'Do I need to purchase any plans ', content: 'No' },
   ];

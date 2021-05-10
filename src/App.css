@@ -1,12 +1,29 @@
-h1 ,h2 ,h3 ,h5 ,h6,span {
-  font-family: 'Roboto Slab', serif;
+
+
+h1{
+  /* font-family: 'Roboto Slab', serif; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  /* line-height: 56px; */
+  line-height: normal;
+  letter-spacing: -.03em;
+}
+
+h2 ,h3 ,h5 ,h6,span {
+  /* font-family: 'Roboto Slab', serif; */
   font-weight: bold;
 }
 
 p,a{
-  font-family: 'Roboto Slab', serif;
-  font-weight: 500;
-  font-size: 1rem;
+  /* font-family: 'Roboto Slab', serif; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* line-height: 24px; */
+  letter-spacing: -.01em;
+  line-height: normal;
+  
 
 }
 

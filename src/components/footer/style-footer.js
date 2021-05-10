@@ -14,7 +14,6 @@ export const StyleP1 = styled.p`
 
 export const StyleLink = styled(Link)`
   color: #4d4d4d;
-  text-decoration-line: underline;
 `;
 
 export const StyleH5 = styled.h5`

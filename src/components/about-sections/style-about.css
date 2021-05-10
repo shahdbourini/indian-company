@@ -12,6 +12,7 @@ text-align: center;
 
 .about-text3 p{
     text-align: center;
+    font-size: 18px;
 }
 
 .about-sec2{
@@ -30,6 +31,9 @@ text-align: center;
   top: 54%;
   left: 34%;
   width: 20%;
+}
+.paragraph_style{
+  color: #6D828F;
 }
 
 

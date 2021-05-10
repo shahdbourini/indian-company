@@ -25,11 +25,20 @@ class Faq extends React.Component {
   };
 
   render() {
+    const color = this.props.color;
     return (
       <div
         className="container"
         style={{ marginTop: `50px`, paddingBottom: `80px` }}
       >
+        <h1
+          style={{
+            textAlign: `center`,
+            color: color,
+          }}
+        >
+          FAQ
+        </h1>
         <dl className="accordion">
           {this.props.accordionList.map((item, index) => (
             <Accordion

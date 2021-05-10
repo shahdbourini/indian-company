@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Switch } from 'antd';
 import footerimg from '../../images/footer-img.png';
-import blueLogo from '../../images/blueLogo2.png';
+import blueLogo from '../../images/blueLogo3.png';
 
 import {
   StyleH5,
@@ -19,6 +19,7 @@ function Footer(props) {
   return (
     <div style={{ background: `rgb(234 234 234)` }}>
       <Row
+        justify="space-around"
         style={{
           // marginTop: `88px`,
           paddingTop: '90px',
@@ -28,12 +29,13 @@ function Footer(props) {
           xs={{ span: 22, offset: 2 }}
           sm={{ span: 22, offset: 2 }}
           md={{ span: 5, offset: 2 }}
-          lg={{ span: 5, offset: 3 }}
+          lg={{ span: 4, offset: 2 }}
         >
           {/* <StyleH5>Logo</StyleH5> */}
           <img
             src={blueLogo}
-            style={{ position: `relative`, left: `-37px`, width: `70%` }}
+            alt="logo"
+            style={{ position: `relative`, width: `70%` }}
           />
           {/* <StyleP>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -46,7 +48,7 @@ function Footer(props) {
           xs={{ span: 22, offset: 2 }}
           sm={{ span: 22, offset: 2 }}
           md={{ span: 5, offset: 1 }}
-          lg={{ span: 3, offset: 2 }}
+          lg={{ span: 4, offset: 2 }}
         >
           <StyleH5>The App</StyleH5>
           <StyleP1>
@@ -73,7 +75,7 @@ function Footer(props) {
           xs={{ span: 22, offset: 2 }}
           sm={{ span: 22, offset: 2 }}
           md={{ span: 5, offset: 0 }}
-          lg={{ span: 3, offset: 1 }}
+          lg={{ span: 4, offset: 2 }}
         >
           <StyleH5>Company</StyleH5>
           <StyleP1>
@@ -100,7 +102,7 @@ function Footer(props) {
           xs={{ span: 22, offset: 2 }}
           sm={{ span: 22, offset: 2 }}
           md={{ span: 5, offset: 0 }}
-          lg={{ span: 3, offset: 1 }}
+          lg={{ span: 4, offset: 2 }}
         >
           <StyleH5>Follow</StyleH5>
           <StyleP1>
@@ -110,7 +112,7 @@ function Footer(props) {
                   window.location.replace('https://www.facebook.com/payxmi')
                 }
               >
-                Facebook
+                Facebook{' '}
               </Link>
             </StyleLink>
           </StyleP1>
@@ -141,10 +143,10 @@ function Footer(props) {
           xs={{ span: 6, offset: 2 }}
           sm={{ span: 4, offset: 2 }}
           md={{ span: 3, offset: 2 }}
-          lg={{ span: 2, offset: 3 }}
+          lg={{ span: 4, offset: 2 }}
         >
           <div>
-            <img src={footerimg} style={{ width: `66%` }} />
+            <img src={footerimg} style={{ width: `34%` }} />
           </div>
         </Col>
 
@@ -152,12 +154,12 @@ function Footer(props) {
           xs={{ span: 10, offset: 1 }}
           sm={{ span: 5, offset: 9 }}
           md={{ span: 4, offset: 10 }}
-          lg={{ span: 3, offset: 12 }}
+          lg={{ span: 4, offset: 14 }}
         >
           <ArrowStyle>
             <Switch
               checkedChildren="English"
-              unCheckedChildren="Arabic"
+              unCheckedChildren="Italian"
               defaultChecked
             />
             <i
@@ -167,6 +169,28 @@ function Footer(props) {
               style={{ cursor: `pointer` }}
             ></i>
           </ArrowStyle>
+        </Col>
+      </Row>
+      <Row style={{ marginTop: `24px`, paddingBottom: `20px ` }}>
+        <Col
+          xs={{ span: 20, offset: 2 }}
+          sm={{ span: 20, offset: 3 }}
+          md={{ span: 20, offset: 3 }}
+          lg={{ span: 22, offset: 1 }}
+          style={{ textAlign: 'center' }}
+        >
+          <p style={{ marginBottom: '0px' }}>
+            We are a financial company incorporated in Ireland (EU) with
+            registered number 688709 and in UK with registered number 12993483
+          </p>
+          <p style={{ marginBottom: '0px' }}>
+            © 2020 – 2021 Payxmi Limited | 69 Esker Woods Drive, Lucan Co
+            Dublin, K78PX45, Ireland
+          </p>
+          <p style={{ marginBottom: '0px' }}>
+            Payxmi Limited | Office 381 182-184, High Street North,E62JA
+            London(UK)
+          </p>
         </Col>
       </Row>
     </div>

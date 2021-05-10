@@ -17,8 +17,8 @@ import {
   Redirect,
 } from 'react-router-dom';
 import './App.css';
-import blueLogo from './images/blueLogo2.png';
-import whiteLogo from './images/logo2.png';
+import blueLogo from './images/blueLogo3.png';
+import whiteLogo from './images/logo3.png';
 
 function App() {
   return (

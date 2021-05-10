@@ -19,12 +19,14 @@ function Sec3(props) {
           xs={{ span: 20, offset: 3 }}
           sm={{ span: 20, offset: 3 }}
           md={{ span: 12, offset: 7 }}
-          lg={{ span: 9, offset: 8 }}
+          lg={{ span: 12, offset: 6 }}
         >
           <div className="about-text3">
-            <h4>Where can you use our app</h4>
+            <h1 style={{ fontSize: 'xxx-large', textAlign: `center` }}>
+              Where can you use our app
+            </h1>
             <p>
-              Download our Payxmi for your respective solutions and account. You
+              Download our payxmi for your respective solutions and account. You
               can download the app for iOS and Android platforms or from the
               official website.  
             </p>
