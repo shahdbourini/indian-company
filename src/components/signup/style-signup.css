@@ -55,6 +55,49 @@
     border-radius: 6px;
 }
 
+
+/****************** Responsive *****************/
+
+@media (min-width:1441px){
+
+    .ReactFlagsSelect-module_selectValue__152eS {
+        font-size: 20px;
+    }
+
+    .ant-btn > span {
+        font-size: 19px;
+        position: relative;
+        top: -5px;
+    }
+
+
+    .ant-switch {
+        min-width: 128px;
+        height: 41px;
+    }
+
+    
+    .ant-switch-inner {
+    font-size: 21px;
+     }
+
+     .ant-switch-handle {
+        top: 9px;
+        left: 2px;
+        width: 21px;
+        height: 22px;
+   
+     }
+
+     .ant-switch-checked .ant-switch-handle {
+        left: calc(100% - 17px - 8px);
+    }
+    
+
+}
+
+
+
 @media (min-width: 320px) and (max-width: 576px){
     .ReactFlagsSelect-module_flagsSelectInline__cUnnz {
         display: inline-block;

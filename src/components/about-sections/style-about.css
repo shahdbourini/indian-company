@@ -66,4 +66,14 @@ text-align: center;
     }
   }
 
+
+  @media (min-width:1441px){
+
+    .about-text3 p {
+      text-align: center;
+      font-size: 24px;
+  }
+
+  }
+
  

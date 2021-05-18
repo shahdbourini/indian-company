@@ -18,20 +18,8 @@ function Navbar(props) {
             background: `${props.backColor}`,
           }}
         >
-          <div
-            className={`navbar navbar-expand-lg `}
-            style={{
-              margin: 'auto',
-              width: '88%',
-              // display: 'flex',
-            }}
-          >
-            <img
-              src={props.navLogo}
-              alt="logo"
-              className="navbar-brand"
-              style={{ width: '10%' }}
-            />
+          <div className={`navbar navbar-expand-lg logo-width`}>
+            <img src={props.navLogo} alt="logo" className="navbar-brand" />
             <button
               className="navbar-toggler"
               type="button"
@@ -50,7 +38,7 @@ function Navbar(props) {
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
                   <NavLink
-                    to="/indian-company"
+                    to="/"
                     activeClassName="is-active"
                     className="nav-link"
                   >
@@ -104,7 +92,7 @@ function Navbar(props) {
                     Contact us
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Button
                     onClick={() => history.push('/sign-up')}
                     className="button1"
@@ -112,16 +100,30 @@ function Navbar(props) {
                   >
                     Sign up
                   </Button>
-                </li>
-                <li className="nav-item">
+                </li> */}
+                {/* <li className="nav-item">
                   <Button
                     // onClick={() => history.push('/login')}
                     className="button2"
                   >
                     Log in
                   </Button>
-                </li>
+                </li> */}
               </ul>
+
+              <Button
+                onClick={() => history.push('/sign-up')}
+                className="button1"
+                type="primary"
+              >
+                Sign up
+              </Button>
+              <Button
+                // onClick={() => history.push('/login')}
+                className="button2"
+              >
+                Log in
+              </Button>
             </div>
           </div>
         </nav>

@@ -21,12 +21,120 @@
 
 .contact-text {
    position: relative;
-   top: 32%;
+   top: 16%;
    margin-bottom: 71%;
+}
+
+
+.contact-text h2{
+  font-family: Amasis MT Std Medium;
+  /* font-size: 2rem; */
+  /* font-weight: 100; */
+}
+
+.contact-text p{
+  font-family: "Calibri Light";
+  line-height: 28px;
+  color: gray;
+  /* font-size: 1.2rem; */
 }
 
 .contact2-text {
   position: relative;
   top: 143px;
   padding-bottom: 38%;
+}
+
+.contact2-text h2{
+  font-family: Amasis MT Std Medium;
+  /* font-weight: 100;   */
+}
+
+.contact2-text p{
+  font-family: "Calibri Light";
+  line-height: 28px;
+  color: gray;
+}
+
+.contact3-text{
+  text-align: center;
+}
+
+.contact3-text h2 , .email-contact h6{
+  font-family: Amasis MT Std Medium;
+  /* font-weight: 100;   */
+}
+
+.contact3-text p , .email-contact p{
+  font-family: "Calibri Light";
+  color: gray;
+}
+
+.email-contact{
+  text-align: center;
+}
+
+.email-contact button{
+  color: #00a3e2;
+    border: solid 1px;
+    border-radius: 6px;
+}
+
+.email-contact button a{
+  color: #00a3e2;
+}
+
+.contact3-section{
+  padding-top: 7%;
+  width: 78%;
+  margin-left: 12%;
+  border: solid 1px #d5cece;
+  margin-bottom: 8%;
+}
+
+.height-p-contact3{
+  height: 10vh;
+}
+/****************** Responsive ****************/
+
+@media (min-width:1441px){
+
+  .email-contact h6{
+   font-size: 2rem;
+  }
+
+  .ant-form-item-label > label {
+    font-size: 23px;
+  }
+
+  .ant-input {
+    padding: 12px 11px;
+    font-size: 24px;
+}
+
+.ant-checkbox + span {
+  font-size: 19px;
+}
+
+.height-p-contact3 p{
+  font-size: 22px;
+}
+}
+
+@media (min-width: 756px) and (max-width: 992px){
+
+  .height-p-contact3 {
+    height: 11vh;
+}
+}
+
+@media (min-width: 320px) and (max-width: 757px){
+  .email-contact button{
+    margin-bottom: 60px;
+  }
+
+  .height-p-contact3{
+    height: auto;
+  }
+ 
 }

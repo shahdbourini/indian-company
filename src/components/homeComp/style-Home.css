@@ -1,28 +1,98 @@
-.HomeImage{
+.HomeImage1{
     position: absolute;
-    right: 31%;
-    top: 44%;
-    width: 40%;
+    right: 23%;
+    top: 41%;
+    width: 61%;
 }
 
-.HomeImage img{
-    width: 60%;
+.homePhoneImg{
+    width: 85%;
+    position: relative;
+    padding-top: 23%;
 }
 
-.Home1-text{
+
+.HomeImage4{
+    position: absolute;
+    right: 26%;
+    top: 76%;
+    width: 57%;
+}
+
+.home4logo{
+    position: absolute;
+    right: 27%;
+    top: 33%;
+    width: 54%;
+}
+
+
+.HomeImage5{
+    position: absolute;
+    right: 16%;
+    top: 63%;
+    width: 74%;
+}
+
+.Home1-text , .Home5-text{
     padding-top: 28%;
 }
 
-.Home1-text p{
-    /* padding-top: 15%; */
+
+.home5-number{
+    position: absolute;
+    right: 23%;
+    top: 25%;
+    color: white;
+    font-size: 7vw;
 }
 
-.Home1-text button{
+.home5-par{
+    position: absolute;
+    right: 32%;
+    top: 46%;
+    color: white;
+    font-size: 1.4vw;
+}
+
+
+.Home5-text h1{
+    /* font-family: Amasis MT Std Medium; */
+    font-size: 2rem;
+}
+
+.Home1-text h1{
+    /* font-family: Amasis MT Std Medium; */
+}
+.Home1-text p, .Home5-text p{
+    font-family: "Calibri Light";
+    line-height: 28px;
+    color: gray;
+    font-size: 1.2rem;
+    width: 90%;
+}
+
+.Home1-text button,.Home5-text button{
     border-color: #00a3e2;
     color: #00a3e2;
-    border-radius: 50px;
+    border-radius: 5px;
     margin-top: 11%;
+    float:right;
+    margin-left: 8%;
 }
+
+.Home2-Title h1{
+    color:black;
+    /* font-family: Amasis MT Std Medium; */
+    font-size: 2.1rem;
+}
+.Home2-Title p{
+    color: gray;
+    font-family: "Calibri Light";
+    font-size: 1.3rem;
+    width: 80%;
+}
+
 
 .HomePhone-sec{
     background-image: url("../../images/blue-back.png");
@@ -57,14 +127,13 @@
 }
 
 .Home-phones button{
-    border-radius: 50px;
+    border-radius: 7px;
     color: #1f93fa;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
     position: relative;
-    /* top: -13px; */
 }
 
 .parCar-1{
@@ -117,6 +186,24 @@
 
 @media (min-width:1441px){
 
+    .Home1-text p, .Home5-text p {
+        line-height: 42px;
+        font-size: 1.9rem;
+    }
+
+    .Home2-Title p {
+        font-size: 1.9rem;
+    }
+
+    .Home5-text h1,.Home1-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .Home1-text button ,.Home5-text button {
+        font-size: 23px;
+        height: 60px;
+    }
+
     .alice-carousel__dots {
         opacity: 0;
     }
@@ -143,7 +230,7 @@
     }
 
     .parCar-2 p{
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .Home-phones button {
@@ -179,6 +266,14 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+
+    .Home1-text {
+        padding-top: 20%;
+    }
+
+    .Home5-text h1 {
+        font-size: 1.7rem;
+    }
 
 .alice-carousel__dots {
         opacity: 0;
@@ -224,6 +319,27 @@
 
 @media (min-width: 576px) and (max-width: 767px){
 
+    .Home1-text, .Home5-text {
+        padding-top: 5%;
+    }
+
+    .Home1-text button,.Home5-text button{
+    float: left;
+    margin-bottom: 0;
+    }
+    .Home5-text button{
+        margin-left: 0;
+    }
+
+    .home5-number{
+        font-size: 10vw;
+    }
+
+    .home5-par{
+        font-size: 2.3vw;
+    }
+
+
     .Home1-text{
         padding-top: 12%;
     }
@@ -231,9 +347,10 @@
         font-size: 39px;
     }
     .Home1-text p {
-        font-size: 14px;
-        padding-top: 7%; 
+        font-size: 18px;
+        padding-top: 2%;
     }
+
 
     .div-par {
         height: 168px;
@@ -255,6 +372,27 @@
 }
 @media (min-width: 320px) and (max-width: 575px){
 
+    .Home1-text button,.Home5-text button{
+        float: left;
+        margin-bottom: 22%;
+        }
+        .Home5-text button{
+         margin-left: 0;
+        }
+
+        .Home5-text h1 {
+         font-size: 1.7rem;
+        }
+
+    .home5-number{
+        font-size: 12vw;
+        right: 28%;
+    }
+
+    .home5-par{
+        font-size: 3vw;
+    }
+
     .div-par {
         height: 150px;
     }
@@ -264,9 +402,10 @@
     .Home1-text h1{
         font-size: 28px;
     }
-    .Home1-text p {
+    .Home1-text p ,.Home2-text p,.Home5-text p,.Home2-Title p {
         font-size: 12px;
         padding-top: 7%; 
+        line-height: 17px;
     }
 
     .rec-carousel-item {

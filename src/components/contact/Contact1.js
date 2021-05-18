@@ -12,13 +12,13 @@ function Contact(props) {
           xs={{ span: 25, offset: 2 }}
           sm={{ span: 12 }}
           md={{ span: 9, offset: 2 }}
-          lg={{ span: 9, offset: 3 }}
+          lg={{ span: 10, offset: 3 }}
         >
           <div className="contact-text">
-            <h1>Thanks for your interest in payxmi!</h1>
+            <h2>Thanks for your interest in payxmi!</h2>
             <p>
-              Want to learn more about the app and our business? Submit this
-              form and our collegues will contact you soon.
+              Want to learn more about the app and our business? Submit your
+              query in this form and our colleague will contact you soon.
             </p>
           </div>
         </Col>

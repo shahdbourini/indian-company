@@ -1,3 +1,12 @@
+.logo-width{
+    margin: auto;
+    width: 100%;
+}
+
+.logo-width img{
+    width: 10%;
+}
+
 .navbar-light .navbar-nav .nav-link {
 
     color: #3f3a3a;
@@ -16,7 +25,8 @@
     color : white;
      background: #daa21b;
      width: 108px;
-     margin-left: 30%;
+     margin-right: 3%;
+     margin-top: 18px;
 }
 
 
@@ -26,7 +36,7 @@
     color : #daa21b;
      background: rgb(38 42 44);
      width: 108px;
-     margin-left: 30%;
+     margin-top: 18px;
 }
 
 .blackColor .navbar-collapse {
@@ -58,7 +68,8 @@
     color : #1f93fa;
      background: white;
      width: 108px;
-     margin-left: 30%;
+     margin-right: 3%;
+     margin-top: 18px;
 }
 
 
@@ -68,7 +79,7 @@
     color : white;
      background: #1f93fa;
      width: 108px;
-     margin-left: 30%;
+     margin-top: 18px;
 }
 
 .blueColor .navbar-collapse {
@@ -103,7 +114,9 @@
     color : white;
      background: #1f93fa;
      width: 108px;
-     margin-left: 30%;
+     /* margin-left: 30%; */
+     margin-right: 3%;
+     margin-top: 18px;
 }
 
 
@@ -113,7 +126,7 @@
     color : #1f93fa;
      background: white;
      width: 108px;
-     margin-left: 30%;
+     margin-top: 18px;
 }
 
 .navbar-collapse {
@@ -168,9 +181,21 @@
 
 /****************************** Responsive *****************/
 
+@media (min-width:1440px){
+    .navbar-light .navbar-nav .nav-link ,.blackColor .navbar-nav .nav-link,.blueColor .navbar-nav .nav-link {
+        font-size: 25px;
+    }
+
+    .navbar-light .button1 ,.navbar-light .button2 , .blackColor .button1 ,.blackColor .button2 , .blueColor .button1 ,.blueColor .button2 {
+        font-size: 25px;
+        width: 147px;
+        height: 49px;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1200px){
     .navbar-light .navbar-nav .nav-link ,.blackColor .navbar-nav .nav-link,.blueColor .navbar-nav .nav-link {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
     .navbar-light .navbar-nav .nav-item ,.blackColor .navbar-nav .nav-item, .blueColor .navbar-nav .nav-item  {
         margin-left: 0.3rem;
@@ -179,5 +204,34 @@
         width: 80px;
     }
 }
+
+@media (min-width: 758px) and (max-width: 991px){
+    .logo-width img {
+        width: 17%;
+    }
+    .logo-width {
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 757px){
+    .logo-width img {
+        width: 22%;
+    }
+    .logo-width {
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+    .logo-width img {
+        width: 36%;
+    }
+    .logo-width {
+        width: 100%;
+    }
+}
+
+
 
 

@@ -63,6 +63,13 @@
 
  /****************** Responsive ****************/
 
+ @media (min-width:1441px){
+
+   .feature-text1 p , .feature-text2 p , .feature-text3 p , .feature-text5 p {
+      font-size: 24px;
+    }
+}
+
  @media (min-width: 320px) and (max-width: 577px){
  .feature-text1 {
    padding-top: 17%;

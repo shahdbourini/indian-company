@@ -42,7 +42,7 @@ html, body, #app {
     transform: translate3d(0, 0, 0);
     color: black;
     position: relative;
-    font-size: 20px;
+    font-size: 17px;
     /* background: #1569a8; */
     margin-bottom: -1px;
     /* border-bottom: 1px solid #0e4671; */
@@ -105,6 +105,19 @@ html, body, #app {
 
 
 /********************** Responsive ******************/
+
+@media (min-width:1800px){
+
+  .accordion .title {
+    font-size: 23px;
+  }
+
+  .accordion .title::before {
+    font-size: 37px;
+    left: 33px;
+    top: 4px;
+}
+}
 
 @media (min-width: 768px) and (max-width: 991px){
 

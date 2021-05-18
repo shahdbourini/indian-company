@@ -2,9 +2,10 @@ import React from 'react';
 import { Button, Col, Row } from 'antd';
 import './style-Home.css';
 import homeImage1 from '../../images/home4Phone.png';
-import homeLogo from '../../images/HomeLogo.png';
+import homeLogo from '../../images/home4img.png';
+import home4logo from '../../images/home4logo.png';
 
-function Home1(props) {
+function Home4(props) {
   return (
     <>
       <Row style={{ paddingBottom: `6%` }}>
@@ -15,16 +16,17 @@ function Home1(props) {
           lg={{ span: 9, offset: 3 }}
         >
           <div className="Home1-text">
-            <h1>Make your money smarter.</h1>
+            <h1 style={{ fontSize: `2rem` }}>
+              Forget Cards -
+              <br />
+              Your phone does everything
+            </h1>
             <p>
-              Payxmi mobile is your one-stop solution for money management. It
-              is the leading online payment app. The easiest way to manage your
-              money in a better way. Have to transfer funds across the Italy?
-              Want to save and manage your money? Want to safely purchase
-              things? Download Payxmi today.
+              Payxmi brings you the only smart all-in-one app that allow you to
+              do all your necessary payments in different ways without the
+              necessary of paying and carrying a card in your pocket.
             </p>
             <Button>Learn More</Button>
-            <Button>Download App</Button>
           </div>
         </Col>
 
@@ -42,7 +44,8 @@ function Home1(props) {
             }}
           >
             <img src={homeImage1} alt="phoneImage" className="homePhoneImg" />
-            <img src={homeLogo} alt="LogoImage" className="HomeImage1" />
+            <img src={home4logo} alt="LogoImage" className="home4logo" />
+            <img src={homeLogo} alt="LogoImage" className="HomeImage4" />
           </div>
         </Col>
       </Row>
@@ -50,4 +53,4 @@ function Home1(props) {
   );
 }
 
-export default Home1;
+export default Home4;

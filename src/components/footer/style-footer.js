@@ -10,10 +10,28 @@ export const StyleP1 = styled.p`
   display: block;
   margin: 0 0 15px;
   color: #4d4d4d;
+  &:hover {
+    color: #40a9ff;
+  }
+  @media (min-width: 320px) and (max-width: 576px) {
+    font-size: 3.9vw;
+  }
+  @media (min-width: 577px) and (max-width: 767px) {
+    font-size: 4vw;
+  }
 `;
 
 export const StyleLink = styled(Link)`
   color: #4d4d4d;
+  @media (min-width: 320px) and (max-width: 576px) {
+    font-size: 3.9vw;
+  }
+  @media (min-width: 1800px) {
+    font-size: 23px;
+  }
+  @media (min-width: 577px) and (max-width: 767px) {
+    font-size: 3vw;
+  }
 `;
 
 export const StyleH5 = styled.h5`
@@ -21,6 +39,9 @@ export const StyleH5 = styled.h5`
   padding-bottom: 5px;
   position: initial;
   margin-bottom: 25px;
+  @media (min-width: 1800px) {
+    font-size: 26px;
+  }
 `;
 
 export const StyleP = styled.p`
@@ -28,15 +49,46 @@ export const StyleP = styled.p`
   margin: 0 0 0px;
   color: #4d4d4d;
   position: relative;
-  top: -59px;
-  left: 11px;
+  left: -18px;
+  top: 22px;
+  font-size: 1.2vw;
+  padding-bottom: 15%;
+
+  @media (min-width: 1800px) {
+    font-size: 20px;
+  }
+  @media (min-width: 320px) and (max-width: 576px) {
+    font-size: 3.3vw;
+  }
+
+  @media (min-width: 577px) and (max-width: 767px) {
+    font-size: 4vw;
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    font-size: 1.4vw;
+  }
 `;
 
 export const ArrowStyle = styled.div`
-  & > i {
-    color: #5d5b5b;
-    display: inline-block;
-    padding-left: 20%;
-    font-size: 16px;
+  position: absolute;
+  bottom: 12px;
+  @media (min-width: 320px) and (max-width: 767px) {
+    position: relative;
+    bottom: 0;
+  }
+`;
+
+export const StyleP2 = styled.p`
+  margin-bottom: 0;
+  font-size: 1vw;
+  color: #686868;
+  @media (min-width: 1800px) {
+    font-size: 23px;
+  }
+  @media (min-width: 320px) and (max-width: 576px) {
+    font-size: 9px;
+  }
+  @media (min-width: 577px) and (max-width: 767px) {
+    font-size: 3vw;
   }
 `;

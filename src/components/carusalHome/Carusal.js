@@ -7,7 +7,7 @@ import HomePhone1 from '../../images/HomePhone1.png';
 import HomePhone2 from '../../images/HomePhone2.png';
 import HomePhone3 from '../../images/HomePhone3.png';
 import { Link } from 'react-router-dom';
-import { Button } from 'antd';
+import { Button, Col, Row } from 'antd';
 
 const responsive = {
   0: { items: 1 },
@@ -58,15 +58,32 @@ const items = [
 ];
 function Carusal(props) {
   return (
-    <div className="carousel-wrapper HomePhone-sec">
-      <AliceCarousel
-        mouseTracking
-        items={items}
-        responsive={responsive}
-        controlsStrategy="alternate"
-        disableButtonsControls="true"
-      />
-    </div>
+    <>
+      <Row style={{ paddingTop: `5%` }}>
+        <Col
+          xs={{ span: 20, offset: 3 }}
+          sm={{ span: 20, offset: 3 }}
+          md={{ span: 15, offset: 3 }}
+          lg={{ span: 12, offset: 3 }}
+          className="Home2-Title"
+        >
+          <h1>Manage, Save and Pay Smarter</h1>
+          <p>
+            Payxmi provides you with easy and smart way to do and manage all you
+            needs with ease.
+          </p>
+        </Col>
+      </Row>
+      <div className="carousel-wrapper HomePhone-sec">
+        <AliceCarousel
+          mouseTracking
+          items={items}
+          responsive={responsive}
+          controlsStrategy="alternate"
+          disableButtonsControls="true"
+        />
+      </div>
+    </>
   );
 }
 

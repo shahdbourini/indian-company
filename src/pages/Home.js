@@ -1,5 +1,8 @@
 import Home1 from '../components/homeComp/Home1';
 import Home2 from '../components/homeComp/Home2';
+import Home3 from '../components/homeComp/Home3';
+import Home4 from '../components/homeComp/Home4';
+import Home5 from '../components/homeComp/Home5';
 import HomeC from '../components/carusalHome/Carusal';
 import Faq from '../components/faq/Faq';
 import Review from '../components/reviews/Review';
@@ -34,6 +37,9 @@ function Home(props) {
       <Home1 />
       {/* <Home2 /> */}
       <HomeC />
+      <Home3 />
+      <Home4 />
+      <Home5 />
       <Faq accordionList={accordionList} color="black" />
       {/* <Review /> */}
     </>
