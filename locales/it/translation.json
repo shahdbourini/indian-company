@@ -1,0 +1,205 @@
+{
+    "Make your money smarter":{
+        "1": "Rendi i tuoi soldi più intelligenti.",
+        "2":"Payxmi mobile è la tua soluzione completa per la gestione del denaro. È la principale app di pagamento online. Il modo più semplice per gestire meglio i tuoi soldi. Devi trasferire fondi in tutta Italia? Vuoi risparmiare e gestire i tuoi soldi? Vuoi acquistare cose in sicurezza? Scarica Payxmi oggi.",
+        "3": "scarica l'app",
+        "4": "Per saperne di più"
+    },
+
+    "Manage, Save and Pay Smarter":{
+        "1": "Gestisci, risparmia e paga in modo più intelligente",
+        "2": "Payxmi ti offre un modo semplice e intelligente per fare e gestire tutto ciò di cui hai bisogno con facilità.",
+        "3": "Ricarica istantanea",
+        "4": "Ricarica istantaneamente il tuo portafoglio payxmi in pochi secondi in diversi modi.",
+        "5": "Ricevi e invia pagamenti istantanei",
+        "6": "Con payxmi invii e ricevi denaro ovunque all'istante.",
+        "7": "Gestisci meglio i tuoi soldi",
+        "8": "payxmi ti consente di gestire e monitorare le tue spese facilmente."
+    },
+
+    "No Minimum Limit,No Hidden Charges":{
+        "1": "Nessun limite minimo,",
+        "2": "Nessun costo nascosto",
+        "3": " Apprezziamo i tuoi centesimi molto singoli. Con Payxmi potrai risparmiare, gestire e pagare con una commissione pari allo zero percento o qualsiasi altro addebito.",
+        "4": "Commissioni o addebiti"
+    },
+
+    "Forget Cards -Your phone does everything":{
+        "1": "Dimentica le carte -",
+        "2": "Il tuo telefono fa tutto",
+        "3": "Payxmi ti offre l'unica app intelligente all-in-one che ti consente di eseguire tutti i pagamenti necessari in modi diversi senza dover pagare e portare una carta in tasca." 
+    },
+
+    "Get Points on every use- Discount and Cashback":{
+        "1": "Ottieni punti ad ogni utilizzo",
+        "2": "- Sconto e Cashback",
+        "3": "Con l'app Payxmi sul tuo telefono, divertiti a fare acquisti in più negozi e guadagna molti punti e ottieni grandi rimborsi e sconti nel processo!"
+    },
+
+    "faq":{
+        "1": "Come creo un account?",
+        "2": "Tutto quello che devi fare è iscriverti al sito web o scaricare l'app per il tuo rispettivo dispositivo e iniziare. Per registrarti alla piattaforma specifica, dovrai eseguire il download dell'app e inserire i tuoi dati relativi al tuo nome, numero di telefono e indirizzo. Il portafoglio sarà pronto in meno di 5 minuti.",
+        "3": "Riceverò delle notifiche?",
+        "4": "Ogni volta che effettui una transazione attraverso la piattaforma, riceverai la conferma dei pagamenti e delle transazioni. Se sei idoneo per le offerte bonus, riceverai la conferma dello stesso nei tuoi rispettivi ID e-mail. Si consiglia di collegare tutti i tuoi account tra loro per idee migliori e rimanere informato.",
+        "5": "Come posso richiedere l'offerta bonus?",
+        "6": "Riceverai sconti e bonus extra per effettuare transazioni tramite la piattaforma. Il bonus ricevuto dalle transazioni verrà memorizzato nel tuo portafoglio payxmi",
+        "7": "Posso trasferire denaro dal mio portafoglio Paxmi al mio conto bancario?",
+        "8": "Sì. Puoi trasferire i soldi dal tuo portafoglio payxmi al conto bancario solo se sono collegati.",
+        "9": "Devo acquistare dei piani",
+        "10": "No"
+
+    },
+
+    "footer":{
+        "1": "ESCLUSIONE DI RESPONSABILITÀ",
+        "2": "Ti preghiamo di non condividere la tua password Payxmi Wallet o altre informazioni riservate con nessuno, anche se afferma di appartenere a Payxmi. Consigliamo di ignorare tali comunicazioni e di segnalarci a support@payxmi.com.",
+        "3": "L'applicazione",
+        "4": "Come funziona ",
+        "5": "Piano",
+        "6": "Account personale",
+        "7": "Conto commerciale",
+        "8": "Azienda",
+        "9": "Chi siamo",
+        "10": "Privacy",
+        "11": "Termini & Condizioni",
+        "12": "Contattaci",
+
+        "13": "Legale",
+        "14": "Termini",
+        "15": "Limiti",
+        "16": "Privacy",
+        "17": "Biscotti",
+        "18": "Seguire",
+
+        "19": "Siamo una società finanziaria costituita in Irlanda (UE) con numero di registrazione 688709 e nel Regno Unito con numero di registrazione 12993483",
+        "20": "© 2020-2021 Payxmi Limited | 69 Esker Woods Drive, Lucan Co Dublin, K78PX45, Irlanda",
+        "21": "Payxmi Limited | Office 381 182-184, High Street North, E62JA London (UK)"
+
+    }, 
+
+
+    "nav":{
+        "1": "Casa",
+         "2": "Caratteristiche",
+         "3": "Chi siamo",
+         "4": "Blog",
+         "5": "Affari",
+         "6": "Contattaci",
+         "7": "Registrati",
+         "8": "Accedi"
+    },
+
+    "contactSec1": {
+        "1": "Grazie per il tuo interesse in Payxmi!",
+        "2": "Vuoi saperne di più sull'app e sulla nostra attività? Invia la tua richiesta in questo modulo e un nostro collega ti contatterà presto.",
+        "3": "Nome",
+        "4": "Cognome",
+        "5": "Email",
+        "6": "Numero di telefono",
+        "7": "messaggio",
+        "8": "Accetta i nostri Termini di servizio, Norme sulla privacy"
+    },
+
+    "contactSec3": {
+        "1": "Contattaci.",
+        "2": "Hai qualche domanda? Ci piacerebbe avere tue notizie.",
+        "3": "Inviaci un'email",
+        "4": "Scrivici una email e noi",
+        "5": "ti ricontatterà entro 2 ore",
+        "6": "Assistenza immediata",
+        "7": "Connettiti con uno di supporto",
+        "8": "membri da con WhatsApp",
+        "9": "Supporto tramite chat dal vivo",
+        "10": "Chatta con un membro",
+        "11": "del nostro team di supporto Helpdesk",
+        "12": "Invia ora un'email",
+        "13": "Chatta ora"
+    },
+
+    "businessSec1": {
+        "1": "Un posto per gestire tutte le finanze aziendali",
+        "2": "Payxmi consente alle PMI e alle grandi organizzazioni di gestire bene le proprie finanze con una rete completamente sicura. Dedica più tempo alla tua azienda gestendo tutte le transazioni da un'unica posizione. Registrati in pochi minuti"
+    },
+
+
+    "businessSec2": {
+        "1": "Transazioni facili in Europa",
+        "2": "Payxmi consente alle PMI e alle grandi organizzazioni di gestire bene le proprie finanze con una rete completamente sicura. Dedica più tempo alla tua azienda gestendo tutte le transazioni da un'unica posizione. Registrati in pochi minuti."
+    },
+
+    "businessSec3": {
+        "1": "Salva in grande",
+        "2": "Il vantaggio più grande di lavorare con Payxmi è che consente alle organizzazioni aziendali di servire in grande. Hai già accesso agli strumenti per gestire le tue finanze. Quindi, non solo ottieni il vantaggio di risparmiare tempo ma anche denaro. Scalare l'API aziendale in modo efficace. ",
+        "3": "Pagamenti ottimizzati con Smart App",
+        "4": "Nessun problema di portare con sé le carte. Payxmi ti fornisce un'app intelligente che ti consente di effettuare transazioni in diversi paesi europei.",
+        "5": "Non commettere l'errore di spendere troppo. Come? Payxmi ti permette di gestire le transazioni tutte da un unico posto."
+
+    },
+
+    "businessSec4": {
+        "1": "Come faccio a creare un account aziendale?",
+        "2": "Per creare un account Payxmi aziendale, sarà necessario registrarsi su reti diverse. È necessario inserire le proprie credenziali aziendali per registrarsi alla piattaforma. Si consiglia di creare un account aziendale, in particolare scegliendo l'opzione." ,
+        "3": "Devo acquistare piani?",
+        "4": "Sì. Esistono diversi piani per l'acquisto delle funzionalità specifiche. Abbiamo piani curati per PMI e grandi organizzazioni. Scegli un piano adatto alle tue esigenze. È GRATUITO per transazioni giornaliere inferiori a € 1000.",
+        "5": "Come autorizzare i piani di acquisto?",
+        "6": "Riceverai notifiche push per i tuoi piani. Per procedere con i tuoi piani di acquisto, riceverai notifiche. Una volta ricevuta la notifica, puoi procedere con la password solo dopo aver toccato. Puoi toccare con l'impronta digitale e procedere con il riconoscimento facciale. ",
+        "7": "Cosa fare quando il trasferimento non riesce quando il denaro è stato detratto?",
+        "8": "Una volta che il trasferimento non riesce e il denaro viene detratto dal conto, dovrai verificare tutti i vantaggi forniti. Allo stesso tempo, è consigliabile controllare entro quando riceverai la conferma. Puoi eseguire l'upgrade a ulteriori piani se il trasferimento non riesce. Il denaro detratto verrà accreditato sul tuo conto entro 3-5 giorni lavorativi "
+    },
+
+    "featuresSec1": {
+        "1": "Stai pianificando di aprire il tuo account in Payxmi? Ecco tutto ciò che devi sapere.",
+        "2": "Registrazione facile",
+        "3": "Payxmi ha creato una delle soluzioni più semplici per aziende e privati. Ti aiutiamo a registrarti nell'app per una procedura senza problemi. Non è necessario inviare documenti aggiuntivi per la firma. Tutto quello che devi fare è confermare l'ID e-mail e non ti chiederemo altro. "
+    },
+    
+    "featuresSec2": {
+        "1": "Portafoglio istantaneo pronto per l'uso",
+        "2": "Entro pochi minuti dall'apertura dell'account con Payxmi, ottieni l'opzione multipla per ricevere pagamenti online / contactless, aiutandoti a essere in movimento e mentre fai transazioni facili.",
+        "3": "Non hai abbastanza soldi nel tuo account? Ricarica istantaneamente il tuo portafoglio Payxmi aggiungendo denaro dal tuo rispettivo conto bancario o da qualsiasi carta."
+    },
+
+    "featuresSec3": {
+        "1": "Trasferisci denaro",
+        "2": "Con payxmi puoi trasferire denaro senza problemi ovunque in Europa. Effettuiamo pagamenti più velocemente con 0 commissioni. Puoi passare facilmente da un conto all'altro."
+       
+    },
+
+    "featuresSec4": {
+        "1": "Gestisci i tuoi soldi",
+        "2": "Payxmi gioca un ruolo importante nella gestione del denaro. Creiamo strumenti per la gestione del denaro mensile e settimanale, inviando così notifiche istantanee."
+       
+    },
+
+    "featuresSec5": {
+        "1": "Protetto",
+        "2": "Seguiamo una gestione e protezione del denaro all'avanguardia per garantire la sicurezza dei pagamenti. Ti aiutiamo a pagare e gestire i tuoi soldi in modo facile e migliore."
+       
+    },
+
+    "aboutSec1": {
+        "1": "Chi siamo?",
+        "2": "Payxmi è la tua soluzione one-stop per una facile gestione del denaro. Payxmi sarà lanciato sul mercato con l'unico obiettivo di rivoluzionare la procedura di gestione del denaro per privati ​​e aziende. Per le aziende Payxmi ha piani sia per le piccole che per le medie aziende e grandi organizzazioni. Che tu sia un vero e proprio servizio di gestione del denaro di eCommerce o un servizio occasionale, Payxmi può aiutarti con lo stesso. "
+    },
+
+    "aboutSec2": {
+        "1": "Noi di Payxmi seguiamo la procedura di innovazione e collaborazione. Con le nostre idee innovative, abbiamo collaborato o collaborato con molti con l'obiettivo di facilitare le imprese tra le persone. Il nostro approccio costante verso soluzioni di business facili ha svolto un ruolo importante in migliorare le soluzioni individuali e aziendali. Pertanto, ci dedichiamo a offrire i migliori servizi ai nostri clienti. ",
+        "2": "Soluzione costante",
+        "3": "Payxmi sta lavorando su obiettivi innovativi per portare soluzioni migliori per aziende e privati. Dedicato a offrire un servizio personalizzato e di alta qualità a tutti, può essere una delle migliori soluzioni costanti che puoi implementare."
+    },
+
+    "aboutSec3": {
+     "1": "Dove puoi utilizzare la nostra app",
+     "2": "Scarica il nostro Payxmi per le tue rispettive soluzioni e account. Puoi scaricare l'app per piattaforme iOS e Android o dal sito web ufficiale."
+    },
+
+    "SignUp":{
+        "1": "Crea account adesso",
+        "2": "Scansiona il codice QR qui sotto o iscriviti tramite e-mail",
+        "3": "o",
+        "4": "Registrati con ID email",
+        "5": "Numero di cellulare",
+        "6": "Registrati"
+    }
+
+}
