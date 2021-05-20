@@ -9,11 +9,11 @@ import Sec5 from '../components/features-sections/Sec5';
 function Features(props) {
   return (
     <>
-      <Sec1 />
-      <Sec2 />
-      <Sec3 />
-      <Sec4 />
-      <Sec5 />
+      <Sec1 t={props.t} />
+      <Sec2 t={props.t} />
+      <Sec3 t={props.t} />
+      <Sec4 t={props.t} />
+      <Sec5 t={props.t} />
     </>
   );
 }

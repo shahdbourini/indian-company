@@ -176,6 +176,7 @@
     line-height: inherit;
     white-space: nowrap;
     padding-top: 1%;
+    cursor: pointer;
     /* width: 217px; */
 }
 

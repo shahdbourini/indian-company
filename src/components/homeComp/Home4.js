@@ -17,16 +17,12 @@ function Home4(props) {
         >
           <div className="Home1-text">
             <h1 style={{ fontSize: `2rem` }}>
-              Forget Cards -
+              {props.t('Forget Cards -Your phone does everything.1')}
               <br />
-              Your phone does everything
+              {props.t('Forget Cards -Your phone does everything.2')}
             </h1>
-            <p>
-              Payxmi brings you the only smart all-in-one app that allow you to
-              do all your necessary payments in different ways without the
-              necessary of paying and carrying a card in your pocket.
-            </p>
-            <Button>Learn More</Button>
+            <p>{props.t('Forget Cards -Your phone does everything.3')}</p>
+            <Button>{props.t('Make your money smarter.4')}</Button>
           </div>
         </Col>
 

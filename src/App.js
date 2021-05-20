@@ -15,61 +15,94 @@ import './App.css';
 import blueLogo from './images/blueLogo3.png';
 import whiteLogo from './images/logo3.png';
 
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
+
 function App() {
+  const { t } = useTranslation();
+
+  function onChange(checked) {
+    if (checked) {
+      i18next.changeLanguage('en');
+    } else {
+      i18next.changeLanguage('it');
+    }
+  }
+
   return (
     <>
       <Router>
         <Switch>
-          <Route exact path="/">
-            <Navbar blackColor="navbar-light" navLogo={blueLogo} />
-            <Home />
+          <Route exact path="/indian-company">
+            <Navbar blackColor="navbar-light" navLogo={blueLogo} t={t} />
+            <Home t={t} />
           </Route>
 
           <Route exact path="/business">
-            <Navbar blackColor="navbar-dark blackColor" navLogo={whiteLogo} />
-            <Business />
+            <Navbar
+              blackColor="navbar-dark blackColor"
+              navLogo={whiteLogo}
+              t={t}
+            />
+            <Business t={t} />
           </Route>
 
           <Route exact path="/about">
-            <Navbar blackColor="navbar-light" navLogo={blueLogo} />
-            <About />
+            <Navbar blackColor="navbar-light" navLogo={blueLogo} t={t} />
+            <About t={t} />
           </Route>
 
           <Route exact path="/features">
-            <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
-            <Features />
+            <Navbar
+              blackColor="navbar-dark blueColor"
+              navLogo={whiteLogo}
+              t={t}
+            />
+            <Features t={t} />
           </Route>
           <Route exact path="/contact">
-            <Navbar blackColor="navbar-light" navLogo={blueLogo} />
-            <Contact />
+            <Navbar blackColor="navbar-light" navLogo={blueLogo} t={t} />
+            <Contact t={t} />
           </Route>
 
           {/* <Route exact path="/login">
-            <Navbar blackColor="navbar-light" navLogo={blueLogo} />
+            <Navbar blackColor="navbar-light" navLogo={blueLogo} t={t} />
             <Login />
           </Route> */}
 
           <Route exact path="/sign-up">
-            <Navbar blackColor="navbar-light" navLogo={blueLogo} />
-            <Signup />
+            <Navbar blackColor="navbar-light" navLogo={blueLogo} t={t} />
+            <Signup t={t} />
           </Route>
 
           <Route exact path="/instant-top-up">
-            <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
+            <Navbar
+              blackColor="navbar-dark blueColor"
+              navLogo={whiteLogo}
+              t={t}
+            />
             <Sec2 />
           </Route>
 
           <Route exact path="/manage-your-money">
-            <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
+            <Navbar
+              blackColor="navbar-dark blueColor"
+              navLogo={whiteLogo}
+              t={t}
+            />
             <Sec4 />
           </Route>
 
           <Route exact path="/instant-receive-and-send-payment">
-            <Navbar blackColor="navbar-dark blueColor" navLogo={whiteLogo} />
+            <Navbar
+              blackColor="navbar-dark blueColor"
+              navLogo={whiteLogo}
+              t={t}
+            />
             <Sec3 />
           </Route>
         </Switch>
-        <Footer />
+        <Footer t={t} onChange={onChange} />
       </Router>
     </>
   );

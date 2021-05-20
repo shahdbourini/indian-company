@@ -22,7 +22,7 @@
 
  .feature-text1 p{
     color:white;
-    font-size: 18px;
+    font-size: 1.2rem;
     padding-top: 21px;
  }
 
@@ -36,7 +36,8 @@
  }
 
  .feature-text2 p{
-    font-size: 18px;
+    font-size: 1.2rem;
+    color:gray;
  }
 
  .feature-text3{
@@ -47,7 +48,8 @@
     color: #01246f;
  }
  .feature-text3 p{
-    font-size: 18px;
+    font-size: 1.2rem;
+    color:gray;
  }
 
  .feature-text5{
@@ -58,7 +60,8 @@
     color: #01246f;
  }
  .feature-text5 p{
-    font-size: 18px;
+    font-size: 1.2rem;
+    color:gray;
  }
 
  /****************** Responsive ****************/

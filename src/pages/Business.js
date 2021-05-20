@@ -8,13 +8,13 @@ import Sec4 from '../components/business-sections/Sec4';
 function business(props) {
   return (
     <div style={{ background: `rgb(38 42 44)` }}>
-      <Sec1 />
+      <Sec1 t={props.t} />
       <Divider style={{ backgroundColor: `white` }} />
-      <Sec2 />
+      <Sec2 t={props.t} />
       <Divider style={{ backgroundColor: `white` }} />
-      <Sec3 />
+      <Sec3 t={props.t} />
       <Divider style={{ backgroundColor: `white` }} />
-      <Sec4 />
+      <Sec4 t={props.t} />
     </div>
   );
 }

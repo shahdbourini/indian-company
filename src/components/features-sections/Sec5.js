@@ -25,12 +25,8 @@ function Sec5(props) {
           lg={{ span: 9, offset: 2, order: 2 }}
         >
           <div className="feature-text5">
-            <h1>Secure  </h1>
-            <p>
-              We follow state-of-art money management and protection to ensure
-              security of payments. We help you pay and manage your money in an
-              easy and better way.  
-            </p>
+            <h1>{props.t('featuresSec5.1')}  </h1>
+            <p>{props.t('featuresSec5.2')}</p>
           </div>
         </Col>
       </Row>

@@ -14,12 +14,8 @@ function Sec4(props) {
           lg={{ span: 8, offset: 4 }}
         >
           <div className="feature-text2">
-            <h1>Manage your money </h1>
-            <p>
-              payxmi plays an important role in managing money. We create tools
-              for monthly and weekly money management thereby sending instant
-              notifications.    
-            </p>
+            <h1>{props.t('featuresSec4.1')} </h1>
+            <p>{props.t('featuresSec4.2')}    </p>
           </div>
         </Col>
 

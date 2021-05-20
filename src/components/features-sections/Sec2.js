@@ -14,17 +14,9 @@ function Sec2(props) {
           lg={{ span: 9, offset: 3 }}
         >
           <div className="feature-text2">
-            <h1>Instant Ready-to-use wallet   </h1>
-            <p>
-              Within minutes of opening the account with payxmi, get the
-              multiple option to receive an online/contactless payments, helping
-              you be on the go and while you experience easy transactions. 
-            </p>
-            <p>
-              Don’t have sufficient money in your account? Top-up
-              your payxmi wallet instantly by adding money from your respective
-              bank account or any cards.   
-            </p>
+            <h1>{props.t('featuresSec2.1')} </h1>
+            <p>{props.t('featuresSec2.2')}</p>
+            <p>{props.t('featuresSec2.3')}</p>
           </div>
         </Col>
 

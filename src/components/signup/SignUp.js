@@ -34,8 +34,8 @@ function SignUp(props) {
           className="blue-borders"
         >
           <div className="signup-text">
-            <h3>Create Account Now</h3>
-            <p>Scan the QR code below or by sign upwith email</p>
+            <h3>{props.t('SignUp.1')}</h3>
+            <p>{props.t('SignUp.2')}</p>
             <div>
               <img src={signupLogo} />
             </div>
@@ -50,7 +50,7 @@ function SignUp(props) {
                 left: `-38px`,
               }}
             />
-            <p style={{ color: `#707070` }}>or</p>
+            <p style={{ color: `#707070` }}>{props.t('SignUp.3')}</p>
             <hr
               style={{
                 background: `#707070`,
@@ -62,23 +62,25 @@ function SignUp(props) {
           </div>
 
           <Form form={form} layout="vertical" className="signup-form">
-            <Form.Item label="Sign Up With Email ID">
+            <Form.Item label={props.t('SignUp.4')}>
               <Input />
             </Form.Item>
             <div>
-              <p style={{ color: `#707070`, textAlign: `center` }}>or</p>
+              <p style={{ color: `#707070`, textAlign: `center` }}>
+                {props.t('SignUp.3')}
+              </p>
             </div>
 
             <Form.Item
               layout="inline"
-              label="Mobile Number"
+              label={props.t('SignUp.5')}
               className="desktop-v"
             >
               <Input addonBefore={prefixSelector} />
             </Form.Item>
             <Form.Item>
               <Button type="primary" style={{ width: `100%` }}>
-                Sign Up
+                {props.t('SignUp.6')}
               </Button>
             </Form.Item>
           </Form>

@@ -15,16 +15,10 @@ function Home1(props) {
           lg={{ span: 9, offset: 3 }}
         >
           <div className="Home1-text">
-            <h1>Make your money smarter.</h1>
-            <p>
-              Payxmi mobile is your one-stop solution for money management. It
-              is the leading online payment app. The easiest way to manage your
-              money in a better way. Have to transfer funds across the Italy?
-              Want to save and manage your money? Want to safely purchase
-              things? Download Payxmi today.
-            </p>
-            <Button>Learn More</Button>
-            <Button>Download App</Button>
+            <h1> {props.t('Make your money smarter.1')}</h1>
+            <p>{props.t('Make your money smarter.2')}</p>
+            <Button>{props.t('Make your money smarter.3')}</Button>
+            <Button>{props.t('Make your money smarter.4')}</Button>
           </div>
         </Col>
 

@@ -16,15 +16,12 @@ function Home5(props) {
         >
           <div className="Home5-text">
             <h1>
-              Get Points on every use
-              <br />- Discount and Cashback
+              {props.t('Get Points on every use- Discount and Cashback.1')}
+              <br />{' '}
+              {props.t('Get Points on every use- Discount and Cashback.2')}
             </h1>
-            <p>
-              With Payxmi App on your phone, enjoy over shopping over multiples
-              stores and earn many points and get big cashbacks and discounts in
-              the process!
-            </p>
-            <Button>Learn More</Button>
+            <p>{props.t('Get Points on every use- Discount and Cashback.3')}</p>
+            <Button>{props.t('Make your money smarter.4')}</Button>
           </div>
         </Col>
 

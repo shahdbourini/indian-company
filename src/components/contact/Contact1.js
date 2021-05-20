@@ -15,11 +15,8 @@ function Contact(props) {
           lg={{ span: 10, offset: 3 }}
         >
           <div className="contact-text">
-            <h2>Thanks for your interest in payxmi!</h2>
-            <p>
-              Want to learn more about the app and our business? Submit your
-              query in this form and our colleague will contact you soon.
-            </p>
+            <h2>{props.t('contactSec1.1')}</h2>
+            <p>{props.t('contactSec1.2')}</p>
           </div>
         </Col>
 
@@ -31,29 +28,29 @@ function Contact(props) {
         >
           <div className="box-form">
             <Form form={form} layout="vertical" className="contact-form">
-              <Form.Item label="First Name">
+              <Form.Item label={props.t('contactSec1.3')}>
                 <Input />
               </Form.Item>
-              <Form.Item label="Last Name">
-                <Input />
-              </Form.Item>
-
-              <Form.Item label="Email">
+              <Form.Item label={props.t('contactSec1.4')}>
                 <Input />
               </Form.Item>
 
-              <Form.Item label="phone Number">
+              <Form.Item label={props.t('contactSec1.5')}>
                 <Input />
               </Form.Item>
 
-              <Form.Item label="message">
+              <Form.Item label={props.t('contactSec1.6')}>
+                <Input />
+              </Form.Item>
+
+              <Form.Item label={props.t('contactSec1.7')}>
                 <Input.TextArea />
               </Form.Item>
 
               <Form.Item>
                 <Button type="primary">Send</Button>
                 <Checkbox className="checkbox">
-                  Accept our Terms of services, Privacy Policy
+                  {props.t('contactSec1.8')}
                 </Checkbox>
               </Form.Item>
             </Form>

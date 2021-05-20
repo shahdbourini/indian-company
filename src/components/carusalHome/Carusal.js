@@ -18,45 +18,53 @@ const responsive = {
   2560: { items: 3 },
 };
 
-const items = [
-  <div className="Home-phones ">
-    <img src={HomePhone1} alt="HomePhone" />
-    <div className="parCar-1">
-      <p style={{ fontWeight: `bold` }}>Instant Top-Up</p>
-    </div>
-    <div className="parCar-2">
-      <p>Top-up your payxmi wallet instant within seconds in multiple ways.</p>
-    </div>
-    <Link to="/instant-top-up">
-      <Button>Learn More</Button>
-    </Link>
-  </div>,
-  <div className="Home-phones ">
-    <img src={HomePhone2} alt="HomePhone" />
-    <div className="parCar-1">
-      <p style={{ fontWeight: `bold` }}>Instant Receive and Send Payment</p>
-    </div>
-    <div className="parCar-2">
-      <p>With payxmi you send and receive money anywhere instantly.</p>
-    </div>
-    <Link to="/instant-receive-and-send-payment">
-      <Button>Learn More</Button>
-    </Link>
-  </div>,
-  <div className="Home-phones ">
-    <img src={HomePhone3} alt="HomePhone" />
-    <div className="parCar-1">
-      <p style={{ fontWeight: `bold` }}>Manage your money better</p>
-    </div>
-    <div className="parCar-2">
-      <p>payxmi allows you to manage and track you spending easily.</p>
-    </div>
-    <Link to="/manage-your-money">
-      <Button>Learn More</Button>
-    </Link>
-  </div>,
-];
 function Carusal(props) {
+  const items = [
+    <div className="Home-phones ">
+      <img src={HomePhone1} alt="HomePhone" />
+      <div className="parCar-1">
+        <p style={{ fontWeight: `bold` }}>
+          {props.t('Manage, Save and Pay Smarter.3')}
+        </p>
+      </div>
+      <div className="parCar-2">
+        <p>{props.t('Manage, Save and Pay Smarter.4')}</p>
+      </div>
+      <Link to="/instant-top-up">
+        <Button>{props.t('Make your money smarter.4')}</Button>
+      </Link>
+    </div>,
+    <div className="Home-phones ">
+      <img src={HomePhone2} alt="HomePhone" />
+      <div className="parCar-1">
+        <p style={{ fontWeight: `bold` }}>
+          {' '}
+          {props.t('Manage, Save and Pay Smarter.5')}
+        </p>
+      </div>
+      <div className="parCar-2">
+        <p> {props.t('Manage, Save and Pay Smarter.6')}</p>
+      </div>
+      <Link to="/instant-receive-and-send-payment">
+        <Button>{props.t('Make your money smarter.4')}</Button>
+      </Link>
+    </div>,
+    <div className="Home-phones ">
+      <img src={HomePhone3} alt="HomePhone" />
+      <div className="parCar-1">
+        <p style={{ fontWeight: `bold` }}>
+          {' '}
+          {props.t('Manage, Save and Pay Smarter.7')}
+        </p>
+      </div>
+      <div className="parCar-2">
+        <p> {props.t('Manage, Save and Pay Smarter.8')}</p>
+      </div>
+      <Link to="/manage-your-money">
+        <Button>{props.t('Make your money smarter.4')}</Button>
+      </Link>
+    </div>,
+  ];
   return (
     <>
       <Row style={{ paddingTop: `5%` }}>
@@ -67,11 +75,8 @@ function Carusal(props) {
           lg={{ span: 12, offset: 3 }}
           className="Home2-Title"
         >
-          <h1>Manage, Save and Pay Smarter</h1>
-          <p>
-            Payxmi provides you with easy and smart way to do and manage all you
-            needs with ease.
-          </p>
+          <h1>{props.t('Manage, Save and Pay Smarter.1')}</h1>
+          <p>{props.t('Manage, Save and Pay Smarter.2')}</p>
         </Col>
       </Row>
       <div className="carousel-wrapper HomePhone-sec">

@@ -16,16 +16,12 @@ function Home5(props) {
         >
           <div className="Home5-text">
             <h1>
-              No Minimum Limit,
+              {props.t('No Minimum Limit,No Hidden Charges.1')}
               <br />
-              No Hidden Charges
+              {props.t('No Minimum Limit,No Hidden Charges.2')}
             </h1>
-            <p>
-              We value for your very single cents. With Payxmi, you will be able
-              to save, manage and pay with zero percent fee or any other
-              charges.
-            </p>
-            <Button>Learn More</Button>
+            <p>{props.t('No Minimum Limit,No Hidden Charges.3')}</p>
+            <Button>{props.t('Make your money smarter.4')}</Button>
           </div>
         </Col>
 

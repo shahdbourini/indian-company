@@ -6,9 +6,9 @@ import AboutSec3 from '../components/about-sections/Sec3';
 function AboutUs(props) {
   return (
     <>
-      <AboutSec1 />
-      <AboutSec2 />
-      <AboutSec3 />
+      <AboutSec1 t={props.t} />
+      <AboutSec2 t={props.t} />
+      <AboutSec3 t={props.t} />
     </>
   );
 }

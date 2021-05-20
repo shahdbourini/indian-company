@@ -76,4 +76,19 @@ text-align: center;
 
   }
 
+
+  @media (min-width: 320px) and (max-width: 576px) {
+  .paragraph-style{
+    font-size: 13px;
+    padding-top: 12%;
+  }
+
+  .paragraph-style2{
+    font-size: 13px;
+  }
+
+  .about-text3 p {
+    font-size: 13px;
+}
+  }
  

@@ -17,7 +17,7 @@ function Sec1(props) {
             fontSize: 'xxx-large',
           }}
         >
-          Who are we?
+          {props.t('aboutSec1.1')}
         </h1>
       </div>
       <Row style={{ paddingBottom: `10px` }}>
@@ -32,19 +32,13 @@ function Sec1(props) {
           </div>
         </Col>
         <Col
-          xs={{ span: 20, offset: 3 }}
+          xs={{ span: 20, offset: 2 }}
           sm={{ span: 20, offset: 3 }}
           md={{ span: 20, offset: 3 }}
           lg={{ span: 13, offset: 6 }}
         >
           <p className="paragraph-style" style={{ textAlign: `justify` }}>
-            payxmi is your one-stop solution for easy money
-            management. payxmi will be launched into the market with the single
-            goal of revolutionizing the money management procedure for
-            individuals and businesses. For businesses payxmi has plans for
-            both- small and medium enterprises and large organizations. Whether
-            you’re a full-fledged eCommerce money management service or casual
-            one, payxmi can help you with the same.  
+            {props.t('aboutSec1.2')}
           </p>
         </Col>
       </Row>

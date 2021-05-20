@@ -16,8 +16,8 @@ function Contact3(props) {
           lg={{ span: 12, offset: 7 }}
         >
           <div className="contact3-text">
-            <h2> Get in touch. </h2>
-            <p>Have any questions? We'd love to hear from you.</p>
+            <h2>{props.t('contactSec3.1')} </h2>
+            <p>{props.t('contactSec3.2')}</p>
           </div>
         </Col>
       </Row>
@@ -32,15 +32,17 @@ function Contact3(props) {
           >
             <div className="email-contact">
               <img src={email} />
-              <h6>Email to Us</h6>
+              <h6>{props.t('contactSec3.3')}</h6>
               <div className="height-p-contact3">
                 <p>
-                  Write us an email and we
-                  <br /> will get back to you within 2 hours 
+                  {props.t('contactSec3.4')}
+                  <br /> {props.t('contactSec3.5')}
                 </p>
               </div>
               <Button>
-                <a href="mailto:support@payxmi.com">Email Now</a>
+                <a href="mailto:support@payxmi.com">
+                  {props.t('contactSec3.12')}
+                </a>
               </Button>
             </div>
           </Col>
@@ -53,16 +55,17 @@ function Contact3(props) {
           >
             <div className="email-contact">
               <img src={whatsapp} />
-              <h6>Instant Support</h6>
+              <h6>{props.t('contactSec3.6')}</h6>
               <div className="height-p-contact3">
                 <p>
-                  Connect with one of support
-                  <br /> members from with WhatsApp
+                  {props.t('contactSec3.7')}
+                  <br />
+                  {props.t('contactSec3.8')}
                 </p>
               </div>
               <Button>
                 <a href="https://api.whatsapp.com/send?phone=+393518339643">
-                  Chat Now
+                  {props.t('contactSec3.13')}
                 </a>
               </Button>
             </div>
@@ -76,15 +79,15 @@ function Contact3(props) {
           >
             <div className="email-contact">
               <img src={chat} />
-              <h6>Live Chat Support </h6>
+              <h6>{props.t('contactSec3.9')} </h6>
               <div className="height-p-contact3">
                 <p>
-                  Chat with a member of
-                  <br /> our Helpdesk Support team
+                  {props.t('contactSec3.10')}
+                  <br /> {props.t('contactSec3.11')}
                 </p>
               </div>
               <Button>
-                <a href="#hs-chat-open">Chat Now</a>
+                <a href="#hs-chat-open">{props.t('contactSec3.13')}</a>
               </Button>
             </div>
           </Col>

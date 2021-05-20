@@ -17,15 +17,10 @@ function Sec2(props) {
           xs={{ span: 20, offset: 2 }}
           sm={{ span: 20, offset: 3 }}
           md={{ span: 20, offset: 3 }}
-          lg={{ span: 12, offset: 6 }}
+          lg={{ span: 13, offset: 6 }}
         >
-          <p style={{ textAlign: `justify` }}>
-            We at payxmi follow the procedure of innovation and collaboration.
-            With our innovative ideas, we have partnered or collaborated with
-            many with the aim to ease businesses among people. Our constant
-            approach towards easy business solutions have played an important
-            role in enhancing the individual and business solutions. Hence, we
-            are dedicated to offer the best services to our customers.  
+          <p className="paragraph-style2" style={{ textAlign: `justify` }}>
+            {props.t('aboutSec2.1')}
           </p>
         </Col>
         <Col
@@ -36,13 +31,10 @@ function Sec2(props) {
         >
           <div className="about-sec2">
             <h1 style={{ fontSize: 'xxx-large', textAlign: `left` }}>
-              Constant Solution 
+              {props.t('aboutSec2.2')}
             </h1>
-            <p style={{ textAlign: `justify` }}>
-              payxmi is working on innovative goals to bring better solutions
-              for businesses and individuals. Dedicated to offering high-quality
-              and custom service to everyone, it can be one of the best constant
-              solutions that you can implement.  
+            <p className="paragraph-style2" style={{ textAlign: `justify` }}>
+              {props.t('aboutSec2.3')} 
             </p>
           </div>
         </Col>

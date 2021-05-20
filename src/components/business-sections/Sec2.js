@@ -14,13 +14,8 @@ function Sec2(props) {
           lg={{ span: 10, offset: 3 }}
         >
           <div className="how-text">
-            <h1>Easy transactions within Europe  </h1>
-            <p>
-              payxmi allows SME and large organizations to manage their finances
-              well with a completely secure network. Spend more time for your
-              business by managing all transactions from one place. Sign up in
-              minutes.
-            </p>
+            <h1>{props.t('businessSec2.1')} </h1>
+            <p>{props.t('businessSec2.2')}</p>
           </div>
         </Col>
 

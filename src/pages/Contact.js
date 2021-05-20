@@ -17,11 +17,11 @@ function Contact(props) {
         ></script>
       </Helmet>
       ;
-      <Contact1 />
+      <Contact1 t={props.t} />
       {/* <Divider style={{ background: `black` }} />
       <Contact2 /> */}
       <Divider style={{ background: `black` }} />
-      <Contact3 />
+      <Contact3 t={props.t} />
     </>
   );
 }

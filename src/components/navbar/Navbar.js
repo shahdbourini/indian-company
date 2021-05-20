@@ -19,7 +19,12 @@ function Navbar(props) {
           }}
         >
           <div className={`navbar navbar-expand-lg logo-width`}>
-            <img src={props.navLogo} alt="logo" className="navbar-brand" />
+            <img
+              src={props.navLogo}
+              alt="logo"
+              className="navbar-brand"
+              onClick={() => history.push('/indian-company')}
+            />
             <button
               className="navbar-toggler"
               type="button"
@@ -38,11 +43,11 @@ function Navbar(props) {
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
                   <NavLink
-                    to="/"
+                    to="/indian-company"
                     activeClassName="is-active"
                     className="nav-link"
                   >
-                    Home
+                    {props.t('nav.1')}
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -51,7 +56,7 @@ function Navbar(props) {
                     activeClassName="is-active"
                     className="nav-link"
                   >
-                    Features
+                    {props.t('nav.2')}
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -60,7 +65,7 @@ function Navbar(props) {
                     activeClassName="is-active"
                     className="nav-link"
                   >
-                    About Us
+                    {props.t('nav.3')}
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -70,7 +75,7 @@ function Navbar(props) {
                     activeClassName="is-active"
                     className="nav-link"
                   >
-                    Blog
+                    {props.t('nav.4')}
                   </NavLink>
                 </li>
 
@@ -80,7 +85,7 @@ function Navbar(props) {
                     activeClassName="is-active"
                     className="nav-link"
                   >
-                    Business
+                    {props.t('nav.5')}
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -89,26 +94,9 @@ function Navbar(props) {
                     activeClassName="is-active"
                     className="nav-link"
                   >
-                    Contact us
+                    {props.t('nav.6')}
                   </NavLink>
                 </li>
-                {/* <li className="nav-item">
-                  <Button
-                    onClick={() => history.push('/sign-up')}
-                    className="button1"
-                    type="primary"
-                  >
-                    Sign up
-                  </Button>
-                </li> */}
-                {/* <li className="nav-item">
-                  <Button
-                    // onClick={() => history.push('/login')}
-                    className="button2"
-                  >
-                    Log in
-                  </Button>
-                </li> */}
               </ul>
 
               <Button
@@ -116,13 +104,13 @@ function Navbar(props) {
                 className="button1"
                 type="primary"
               >
-                Sign up
+                {props.t('nav.7')}
               </Button>
               <Button
                 // onClick={() => history.push('/login')}
                 className="button2"
               >
-                Log in
+                {props.t('nav.8')}
               </Button>
             </div>
           </div>

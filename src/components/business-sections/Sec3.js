@@ -13,16 +13,10 @@ function Sec4(props) {
           lg={{ span: 10, offset: 3 }}
         >
           <div className="how-text">
-            <h1>Save Big </h1>
+            <h1>{props.t('businessSec3.1')} </h1>
             {/* <br />
             <br /> */}
-            <p>
-              The greatest perk of working with payxmi is that it allows
-              business organizations to serve big. You already get access to
-              tools to manage your finances. Hence, not only do you get the perk
-              of saving time but money as well. Scale the business API
-              effectively.
-            </p>
+            <p>{props.t('businessSec3.2')}</p>
           </div>
         </Col>
 
@@ -33,14 +27,11 @@ function Sec4(props) {
           lg={{ span: 7, offset: 2 }}
         >
           <div className="how-text">
-            <h1>Optimized payments with Smart App   </h1>
+            <h1>{props.t('businessSec3.3')} </h1>
             <p>
-              No hassle of carrying the cards. payxmi provides you with a smart
-              app that allows you to make transactions across different European
-              countries.
+              {props.t('businessSec3.4')}
               <br />
-              Do not make the mistake of overspending. How? payxmi allows you to
-              manage transactions all from one place.  
+              {props.t('businessSec3.5')} 
             </p>
           </div>
         </Col>

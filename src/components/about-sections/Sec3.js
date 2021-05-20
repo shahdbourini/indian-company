@@ -23,13 +23,9 @@ function Sec3(props) {
         >
           <div className="about-text3">
             <h1 style={{ fontSize: 'xxx-large', textAlign: `center` }}>
-              Where can you use our app
+              {props.t('aboutSec3.1')}
             </h1>
-            <p>
-              Download our payxmi for your respective solutions and account. You
-              can download the app for iOS and Android platforms or from the
-              official website.  
-            </p>
+            <p>{props.t('aboutSec3.2')} </p>
             <img src={map} alt="image" style={{ width: `100%` }} />
 
             <div style={{ paddingTop: `41px` }}>

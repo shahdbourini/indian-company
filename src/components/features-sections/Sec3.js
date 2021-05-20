@@ -25,12 +25,8 @@ function Sec3(props) {
           lg={{ span: 9, offset: 1, order: 2 }}
         >
           <div className="feature-text3">
-            <h1>Transfer Money  </h1>
-            <p>
-              With payxmi you can transfer money seamlessly to anywhere within
-              Europe. We make payments faster with 0 commission. You can easily
-              switch between the accounts.    
-            </p>
+            <h1>{props.t('featuresSec3.1')} </h1>
+            <p>{props.t('featuresSec3.2')}   </p>
           </div>
         </Col>
       </Row>

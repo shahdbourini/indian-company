@@ -14,17 +14,17 @@ export const StyleP1 = styled.p`
     color: #40a9ff;
   }
   @media (min-width: 320px) and (max-width: 576px) {
-    font-size: 3.9vw;
+    font-size: 3vw;
   }
   @media (min-width: 577px) and (max-width: 767px) {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 `;
 
 export const StyleLink = styled(Link)`
   color: #4d4d4d;
   @media (min-width: 320px) and (max-width: 576px) {
-    font-size: 3.9vw;
+    font-size: 3vw;
   }
   @media (min-width: 1800px) {
     font-size: 23px;
@@ -50,22 +50,24 @@ export const StyleP = styled.p`
   color: #4d4d4d;
   position: relative;
   left: -18px;
-  top: 22px;
-  font-size: 1.2vw;
+  top: 5%;
+  font-size: 1rem;
   padding-bottom: 15%;
+  text-align: justify;
 
   @media (min-width: 1800px) {
     font-size: 20px;
   }
   @media (min-width: 320px) and (max-width: 576px) {
-    font-size: 3.3vw;
+    font-size: 2.5vw;
   }
 
   @media (min-width: 577px) and (max-width: 767px) {
-    font-size: 4vw;
+    font-size: 2.5vw;
   }
   @media (min-width: 768px) and (max-width: 992px) {
-    font-size: 1.4vw;
+    font-size: 0.8rem;
+    top: 12%;
   }
 `;
 
@@ -89,6 +91,6 @@ export const StyleP2 = styled.p`
     font-size: 9px;
   }
   @media (min-width: 577px) and (max-width: 767px) {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 `;

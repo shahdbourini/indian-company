@@ -14,10 +14,7 @@ function Sec1(props) {
           lg={{ span: 9, offset: 8 }}
         >
           <div className="feature1-title">
-            <h4 style={{ textAlign: `left` }}>
-              Planning to open your account in payxmi? Here’s everything you
-              need to know. 
-            </h4>
+            <h4 style={{ textAlign: `left` }}>{props.t('featuresSec1.1')}</h4>
           </div>
         </Col>
 
@@ -39,14 +36,8 @@ function Sec1(props) {
           lg={{ span: 9, offset: 3 }}
         >
           <div className="feature-text1">
-            <h1>Easy Sign-up </h1>
-            <p>
-              payxmi has brought about one of the easiest solutions for
-              businesses and individuals. We help you to sign-up into the app
-              for a hassle-free procedure. You don’t need to submit any extra
-              documents for the sign-up process. All you need to do is confirm
-              the email ID and we do not ask you for anything more. 
-            </p>
+            <h1>{props.t('featuresSec1.2')} </h1>
+            <p>{props.t('featuresSec1.3')}</p>
           </div>
         </Col>
       </Row>
