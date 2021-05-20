@@ -23,7 +23,7 @@ function Navbar(props) {
               src={props.navLogo}
               alt="logo"
               className="navbar-brand"
-              onClick={() => history.push('/indian-company')}
+              onClick={() => history.push('/')}
             />
             <button
               className="navbar-toggler"
@@ -43,7 +43,7 @@ function Navbar(props) {
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
                   <NavLink
-                    to="/indian-company"
+                    to="/"
                     activeClassName="is-active"
                     className="nav-link"
                   >

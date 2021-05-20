@@ -34,7 +34,7 @@ function Footer(props) {
           <img
             src={blueLogo}
             alt="logo"
-            onClick={() => history.push('/indian-company')}
+            onClick={() => history.push('/')}
             style={{
               position: `relative`,
               width: `50%`,
