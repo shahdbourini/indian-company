@@ -9,9 +9,9 @@ function Home5(props) {
     <>
       <Row style={{ paddingBottom: `6%`, paddingTop: `9%` }}>
         <Col
-          xs={{ span: 20, offset: 2 }}
-          sm={{ span: 20, offset: 2 }}
-          md={{ span: 9, offset: 2 }}
+          xs={{ span: 25, offset: 2 }}
+          sm={{ span: 25, offset: 2 }}
+          md={{ span: 10, offset: 2 }}
           lg={{ span: 9, offset: 3 }}
         >
           <div className="Home5-text">

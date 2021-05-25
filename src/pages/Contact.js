@@ -16,7 +16,7 @@ function Contact(props) {
           src="//js.hs-scripts.com/20020308.js"
         ></script>
       </Helmet>
-      ;
+
       <Contact1 t={props.t} />
       {/* <Divider style={{ background: `black` }} />
       <Contact2 /> */}

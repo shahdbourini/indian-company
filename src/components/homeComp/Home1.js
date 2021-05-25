@@ -11,14 +11,16 @@ function Home1(props) {
         <Col
           xs={{ span: 25, offset: 2 }}
           sm={{ span: 25, offset: 2 }}
-          md={{ span: 9, offset: 2 }}
+          md={{ span: 10, offset: 2 }}
           lg={{ span: 9, offset: 3 }}
         >
           <div className="Home1-text">
             <h1> {props.t('Make your money smarter.1')}</h1>
             <p>{props.t('Make your money smarter.2')}</p>
             <Button>{props.t('Make your money smarter.3')}</Button>
-            <Button>{props.t('Make your money smarter.4')}</Button>
+            <Button style={{ marginLeft: `4%` }}>
+              {props.t('Make your money smarter.4')}
+            </Button>
           </div>
         </Col>
 

@@ -8,10 +8,10 @@ function Sec1(props) {
     <div className="features-image">
       <Row>
         <Col
-          xs={{ span: 25, offset: 2 }}
-          sm={{ span: 25, offset: 2 }}
-          md={{ span: 13, offset: 6 }}
-          lg={{ span: 9, offset: 8 }}
+          xs={{ span: 25, offset: 2, order: 1 }}
+          sm={{ span: 25, offset: 2, order: 1 }}
+          md={{ span: 13, offset: 6, order: 1 }}
+          lg={{ span: 9, offset: 8, order: 1 }}
         >
           <div className="feature1-title">
             <h4 style={{ textAlign: `left` }}>{props.t('featuresSec1.1')}</h4>
@@ -19,10 +19,10 @@ function Sec1(props) {
         </Col>
 
         <Col
-          xs={{ span: 25, offset: 2 }}
-          sm={{ span: 25, offset: 2 }}
-          md={{ span: 9, offset: 2 }}
-          lg={{ span: 7, offset: 3 }}
+          xs={{ span: 12, offset: 7, order: 2 }}
+          sm={{ span: 9, offset: 8, order: 2 }}
+          md={{ span: 6, offset: 2, order: 1 }}
+          lg={{ span: 6, offset: 3, order: 1 }}
         >
           <div>
             <img src={features1} style={{ width: `100%` }} />
@@ -30,10 +30,10 @@ function Sec1(props) {
         </Col>
 
         <Col
-          xs={{ span: 25, offset: 2 }}
-          sm={{ span: 25, offset: 2 }}
-          md={{ span: 9, offset: 2 }}
-          lg={{ span: 9, offset: 3 }}
+          xs={{ span: 25, offset: 2, order: 1 }}
+          sm={{ span: 25, offset: 2, order: 1 }}
+          md={{ span: 10, offset: 2, order: 2 }}
+          lg={{ span: 9, offset: 1, order: 2 }}
         >
           <div className="feature-text1">
             <h1>{props.t('featuresSec1.2')} </h1>

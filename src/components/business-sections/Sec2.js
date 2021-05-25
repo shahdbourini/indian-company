@@ -8,10 +8,10 @@ function Sec2(props) {
     <>
       <Row style={{ paddingBottom: `100px` }}>
         <Col
-          xs={{ span: 22, offset: 2 }}
-          sm={{ span: 20, offset: 3 }}
-          md={{ span: 11, offset: 3 }}
-          lg={{ span: 10, offset: 3 }}
+          xs={{ span: 25, offset: 2 }}
+          sm={{ span: 25, offset: 2 }}
+          md={{ span: 10, offset: 2 }}
+          lg={{ span: 9, offset: 3 }}
         >
           <div className="how-text">
             <h1>{props.t('businessSec2.1')} </h1>
@@ -20,10 +20,10 @@ function Sec2(props) {
         </Col>
 
         <Col
-          xs={{ span: 17, offset: 3 }}
-          sm={{ span: 17, offset: 3 }}
-          md={{ span: 7, offset: 1 }}
-          lg={{ span: 7, offset: 2 }}
+          xs={{ span: 12, offset: 7 }}
+          sm={{ span: 9, offset: 8 }}
+          md={{ span: 6, offset: 4 }}
+          lg={{ span: 6, offset: 4 }}
         >
           <img src={How1} style={{ width: `100%` }} />
         </Col>

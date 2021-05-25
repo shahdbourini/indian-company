@@ -10,14 +10,12 @@ export const StyleP1 = styled.p`
   display: block;
   margin: 0 0 15px;
   color: #4d4d4d;
+  font-size: 1rem;
   &:hover {
     color: #40a9ff;
   }
-  @media (min-width: 320px) and (max-width: 576px) {
-    font-size: 3vw;
-  }
-  @media (min-width: 577px) and (max-width: 767px) {
-    font-size: 3vw;
+  @media (min-width: 1441px) {
+    font-size: 1.6rem;
   }
 `;
 
@@ -55,19 +53,12 @@ export const StyleP = styled.p`
   padding-bottom: 15%;
   text-align: justify;
 
-  @media (min-width: 1800px) {
-    font-size: 20px;
-  }
-  @media (min-width: 320px) and (max-width: 576px) {
-    font-size: 2.5vw;
-  }
-
-  @media (min-width: 577px) and (max-width: 767px) {
-    font-size: 2.5vw;
+  @media (min-width: 1441px) {
+    font-size: 1.5rem;
   }
   @media (min-width: 768px) and (max-width: 992px) {
-    font-size: 0.8rem;
     top: 12%;
+    font-size: 0.8rem;
   }
 `;
 
@@ -84,7 +75,7 @@ export const StyleP2 = styled.p`
   margin-bottom: 0;
   font-size: 1vw;
   color: #686868;
-  @media (min-width: 1800px) {
+  @media (min-width: 1441px) {
     font-size: 23px;
   }
   @media (min-width: 320px) and (max-width: 576px) {
@@ -92,5 +83,19 @@ export const StyleP2 = styled.p`
   }
   @media (min-width: 577px) and (max-width: 767px) {
     font-size: 2vw;
+  }
+`;
+
+export const ImgF = styled.img`
+  position: relative;
+  width: 50%;
+  left: -18px;
+  cursor: pointer;
+
+  @media (min-width: 320px) and (max-width: 576px) {
+    width: 40%;
+  }
+  @media (min-width: 577px) and (max-width: 767px) {
+    width: 30%;
   }
 `;

@@ -37,9 +37,7 @@ function Sec1(props) {
           md={{ span: 20, offset: 3 }}
           lg={{ span: 13, offset: 6 }}
         >
-          <p className="paragraph-style" style={{ textAlign: `justify` }}>
-            {props.t('aboutSec1.2')}
-          </p>
+          <p className="paragraph-style">{props.t('aboutSec1.2')}</p>
         </Col>
       </Row>
     </>

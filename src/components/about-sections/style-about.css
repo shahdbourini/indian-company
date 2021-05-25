@@ -12,11 +12,11 @@ text-align: center;
 
 .about-text3 p{
     text-align: center;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 .about-sec2{
-    padding-top: 50%;
+    padding-top: 32%;
 }
 
 .setting1{
@@ -32,8 +32,10 @@ text-align: center;
   left: 34%;
   width: 20%;
 }
-.paragraph_style{
+.paragraph-style{
   color: #6D828F;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 
 
@@ -71,11 +73,28 @@ text-align: center;
 
     .about-text3 p {
       text-align: center;
-      font-size: 24px;
+      font-size: 1.9rem;
   }
+
+  .paragraph-style{
+    font-size: 1.9rem;
+  }
+
+  .about-text3 p{
+    font-size: 1.9rem;
+    color: gray;
+}
 
   }
 
+
+
+@media (min-width: 756px) and (max-width: 991px) {
+  .about-sec2 {
+    padding-top: 19%;
+}
+
+}
 
   @media (min-width: 320px) and (max-width: 576px) {
   .paragraph-style{

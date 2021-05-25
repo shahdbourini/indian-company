@@ -12,10 +12,10 @@ function Home4(props) {
         <Col
           xs={{ span: 25, offset: 2 }}
           sm={{ span: 25, offset: 2 }}
-          md={{ span: 9, offset: 2 }}
+          md={{ span: 10, offset: 2 }}
           lg={{ span: 9, offset: 3 }}
         >
-          <div className="Home1-text">
+          <div className="Home5-text">
             <h1 style={{ fontSize: `2rem` }}>
               {props.t('Forget Cards -Your phone does everything.1')}
               <br />

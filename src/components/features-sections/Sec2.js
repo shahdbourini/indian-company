@@ -10,7 +10,7 @@ function Sec2(props) {
         <Col
           xs={{ span: 25, offset: 2 }}
           sm={{ span: 25, offset: 2 }}
-          md={{ span: 9, offset: 2 }}
+          md={{ span: 10, offset: 2 }}
           lg={{ span: 9, offset: 3 }}
         >
           <div className="feature-text2">
@@ -21,10 +21,10 @@ function Sec2(props) {
         </Col>
 
         <Col
-          xs={{ span: 25, offset: 2 }}
-          sm={{ span: 25, offset: 2 }}
-          md={{ span: 9, offset: 2 }}
-          lg={{ span: 7, offset: 3 }}
+          xs={{ span: 12, offset: 7 }}
+          sm={{ span: 9, offset: 8 }}
+          md={{ span: 6, offset: 4 }}
+          lg={{ span: 6, offset: 4 }}
         >
           <div>
             <img src={HomePhone1} style={{ width: `100%` }} />

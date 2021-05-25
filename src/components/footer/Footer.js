@@ -9,7 +9,7 @@ import {
   StyleP,
   StyleP1,
   ArrowStyle,
-  StyleLink,
+  ImgF,
   StyleP2,
 } from './style-footer';
 
@@ -31,17 +31,7 @@ function Footer(props) {
           lg={{ span: 6, offset: 1 }}
         >
           {/* <StyleH5>Logo</StyleH5> */}
-          <img
-            src={blueLogo}
-            alt="logo"
-            onClick={() => history.push('/')}
-            style={{
-              position: `relative`,
-              width: `50%`,
-              left: `-18px`,
-              cursor: `pointer`,
-            }}
-          />
+          <ImgF src={blueLogo} alt="logo" onClick={() => history.push('/')} />
           <StyleP>
             <b style={{ color: `#daa21b` }}>{props.t('footer.1')}</b>
             <br />

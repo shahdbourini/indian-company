@@ -1,33 +1,34 @@
 import { Col, Row, Button, Form, Input, Checkbox } from 'antd';
 import 'antd/dist/antd.css';
 import './style-contact.css';
+import HubspotForm from 'react-hubspot-form';
 
 function Contact(props) {
   const [form] = Form.useForm();
 
   return (
-    <div>
+    <>
       <Row style={{ paddingTop: '10%', paddingBottom: `6%` }}>
         <Col
-          xs={{ span: 25, offset: 2 }}
-          sm={{ span: 12 }}
+          xs={{ span: 22, offset: 2 }}
+          sm={{ span: 22, offset: 2 }}
           md={{ span: 9, offset: 2 }}
-          lg={{ span: 10, offset: 3 }}
+          lg={{ span: 9, offset: 3 }}
         >
           <div className="contact-text">
-            <h2>{props.t('contactSec1.1')}</h2>
+            <h1>{props.t('contactSec1.1')}</h1>
             <p>{props.t('contactSec1.2')}</p>
           </div>
         </Col>
 
         <Col
-          xs={{ span: 25, offset: 2 }}
-          sm={{ span: 5, offset: 6 }}
+          xs={{ span: 20, offset: 2 }}
+          sm={{ span: 18, offset: 4 }}
           md={{ span: 10, offset: 2 }}
-          lg={{ span: 8, offset: 1 }}
+          lg={{ span: 9, offset: 1 }}
         >
-          <div className="box-form">
-            <Form form={form} layout="vertical" className="contact-form">
+          {/* <div className="box-form"> */}
+          {/* <Form form={form} layout="vertical" className="contact-form">
               <Form.Item label={props.t('contactSec1.3')}>
                 <Input />
               </Form.Item>
@@ -53,11 +54,20 @@ function Contact(props) {
                   {props.t('contactSec1.8')}
                 </Checkbox>
               </Form.Item>
-            </Form>
-          </div>
+            </Form> */}
+
+          <HubspotForm
+            portalId="20020308"
+            formId="33a3fcb1-3716-47e0-b378-a56955c982e7"
+            region="na1"
+            onSubmit={() => (window.location.href = '/contact')}
+            onReady={(form) => console.log('Form ready!')}
+            loading={<div></div>}
+          />
+          {/* </div> */}
         </Col>
       </Row>
-    </div>
+    </>
   );
 }
 

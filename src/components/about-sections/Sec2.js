@@ -19,30 +19,26 @@ function Sec2(props) {
           md={{ span: 20, offset: 3 }}
           lg={{ span: 13, offset: 6 }}
         >
-          <p className="paragraph-style2" style={{ textAlign: `justify` }}>
-            {props.t('aboutSec2.1')}
-          </p>
+          <p className="paragraph-style">{props.t('aboutSec2.1')}</p>
         </Col>
         <Col
-          xs={{ span: 20, offset: 2 }}
-          sm={{ span: 20, offset: 3 }}
-          md={{ span: 10, offset: 3 }}
-          lg={{ span: 6, offset: 6 }}
+          xs={{ span: 25, offset: 2 }}
+          sm={{ span: 25, offset: 2 }}
+          md={{ span: 10, offset: 2 }}
+          lg={{ span: 9, offset: 3 }}
         >
           <div className="about-sec2">
             <h1 style={{ fontSize: 'xxx-large', textAlign: `left` }}>
               {props.t('aboutSec2.2')}
             </h1>
-            <p className="paragraph-style2" style={{ textAlign: `justify` }}>
-              {props.t('aboutSec2.3')} 
-            </p>
+            <p className="paragraph-style">{props.t('aboutSec2.3')} </p>
           </div>
         </Col>
         <Col
-          xs={{ span: 19, offset: 2 }}
-          sm={{ span: 20, offset: 3 }}
-          md={{ span: 10, offset: 2 }}
-          lg={{ span: 6, offset: 1 }}
+          xs={{ span: 12, offset: 7 }}
+          sm={{ span: 9, offset: 8 }}
+          md={{ span: 6, offset: 4 }}
+          lg={{ span: 6, offset: 4 }}
         >
           <div style={{ position: `relative`, left: `0`, top: `0` }}>
             <img src={aboutAsset} style={{ width: `100%` }} />

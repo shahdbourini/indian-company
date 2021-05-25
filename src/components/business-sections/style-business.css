@@ -1,5 +1,6 @@
 .how-text{
-    padding-top: 20%;
+    padding-top: 28%;
+ 
   }
   
   .how-text h1{
@@ -8,5 +9,12 @@
   
   .how-text p{
     /* padding-top: 35px; */
-    color: white;;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  @media (min-width:1441px){
+    .how-text p{
+      font-size: 1.9rem;
+    }
   }

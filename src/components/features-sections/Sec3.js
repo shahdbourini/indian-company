@@ -8,10 +8,10 @@ function Sec3(props) {
     <>
       <Row>
         <Col
-          xs={{ span: 25, offset: 2, order: 2 }}
-          sm={{ span: 25, offset: 2, order: 2 }}
-          md={{ span: 9, offset: 2, order: 1 }}
-          lg={{ span: 7, offset: 3, order: 1 }}
+          xs={{ span: 12, offset: 7, order: 2 }}
+          sm={{ span: 9, offset: 8, order: 2 }}
+          md={{ span: 6, offset: 2, order: 1 }}
+          lg={{ span: 6, offset: 3, order: 1 }}
         >
           <div>
             <img src={HomePhone2} style={{ width: `100%` }} />
@@ -21,7 +21,7 @@ function Sec3(props) {
         <Col
           xs={{ span: 25, offset: 2, order: 1 }}
           sm={{ span: 25, offset: 2, order: 1 }}
-          md={{ span: 9, offset: 2, order: 2 }}
+          md={{ span: 10, offset: 2, order: 2 }}
           lg={{ span: 9, offset: 1, order: 2 }}
         >
           <div className="feature-text3">

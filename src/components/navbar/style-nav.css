@@ -12,7 +12,7 @@
     color: #3f3a3a;
     opacity: 1;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 
 .blackColor{
@@ -47,7 +47,7 @@
     color: white;
     opacity: 1;
        font-weight: normal;
-    font-size: 16px;
+       font-size: 1.2rem;
 }
 
 .blackColor .navbar-nav .nav-link:hover {
@@ -90,7 +90,7 @@
     color: white;
     opacity: 1;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 
 .blueColor .navbar-nav .nav-link:hover {
@@ -184,11 +184,11 @@
 
 @media (min-width:1440px){
     .navbar-light .navbar-nav .nav-link ,.blackColor .navbar-nav .nav-link,.blueColor .navbar-nav .nav-link {
-        font-size: 25px;
+        font-size: 1.5rem;
     }
 
     .navbar-light .button1 ,.navbar-light .button2 , .blackColor .button1 ,.blackColor .button2 , .blueColor .button1 ,.blueColor .button2 {
-        font-size: 25px;
+        font-size: 1.5rem;
         width: 147px;
         height: 49px;
     }
