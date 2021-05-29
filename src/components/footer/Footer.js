@@ -83,7 +83,7 @@ function Footer(props) {
             <StyleP1>{props.t('footer.11')}</StyleP1>
           </Link>
 
-          <Link to="">
+          <Link to="/contact">
             <StyleP1>{props.t('footer.12')}</StyleP1>
           </Link>
         </Col>
