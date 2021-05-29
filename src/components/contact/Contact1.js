@@ -1,4 +1,4 @@
-import { Col, Row, Button, Form, Input, Checkbox } from 'antd';
+import { Col, Row, Button, Form, Input, Checkbox, Alert } from 'antd';
 import 'antd/dist/antd.css';
 import './style-contact.css';
 import HubspotForm from 'react-hubspot-form';
@@ -27,40 +27,11 @@ function Contact(props) {
           md={{ span: 10, offset: 2 }}
           lg={{ span: 9, offset: 1 }}
         >
-          {/* <div className="box-form"> */}
-          {/* <Form form={form} layout="vertical" className="contact-form">
-              <Form.Item label={props.t('contactSec1.3')}>
-                <Input />
-              </Form.Item>
-              <Form.Item label={props.t('contactSec1.4')}>
-                <Input />
-              </Form.Item>
-
-              <Form.Item label={props.t('contactSec1.5')}>
-                <Input />
-              </Form.Item>
-
-              <Form.Item label={props.t('contactSec1.6')}>
-                <Input />
-              </Form.Item>
-
-              <Form.Item label={props.t('contactSec1.7')}>
-                <Input.TextArea />
-              </Form.Item>
-
-              <Form.Item>
-                <Button type="primary">Send</Button>
-                <Checkbox className="checkbox">
-                  {props.t('contactSec1.8')}
-                </Checkbox>
-              </Form.Item>
-            </Form> */}
-
           <HubspotForm
             portalId="20020308"
             formId="33a3fcb1-3716-47e0-b378-a56955c982e7"
             region="na1"
-            onSubmit={() => (window.location.href = '/contact')}
+            onSubmit={() => window.location.reload(false)}
             onReady={(form) => console.log('Form ready!')}
             loading={<div></div>}
           />
