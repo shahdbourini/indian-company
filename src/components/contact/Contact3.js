@@ -87,7 +87,7 @@ function Contact3(props) {
                 </p>
               </div>
               <Button>
-                <a href="#hs-chat-open">{props.t('contactSec3.13')}</a>
+                <a href="#contact/#hs-chat-open">{props.t('contactSec3.13')}</a>
               </Button>
             </div>
           </Col>
